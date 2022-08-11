@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.b4c9dfde.css",
-    "main.js": "/static/js/main.0cb517c7.js",
+    "main.js": "/static/js/main.7c662b83.js",
     "static/media/frosh_logo.png": "/static/media/frosh_logo.3cc4cd4543b65a52d66f.png",
-    "static/media/header_welcome.jpeg": "/static/media/header_welcome.c4dd2d498e6317e268bb.jpeg",
+    "static/media/header_welcome.jpeg": "/static/media/header_welcome.dc9654e131ad7373c573.jpeg",
     "static/media/drivesafe.png": "/static/media/drivesafe.541c138cc77a184cc0bb.png",
     "static/media/sponsors.png": "/static/media/sponsors.3b2515b693f07f5e5444.png",
     "static/media/osverse.png": "/static/media/osverse.26da7bb012bc24cf033d.png",
@@ -19,10 +19,10 @@
     "static/media/campus-life-and-engagement.png": "/static/media/campus-life-and-engagement.f6ad8b0367cdc6a826af.png",
     "index.html": "/index.html",
     "main.b4c9dfde.css.map": "/static/css/main.b4c9dfde.css.map",
-    "main.0cb517c7.js.map": "/static/js/main.0cb517c7.js.map"
+    "main.7c662b83.js.map": "/static/js/main.7c662b83.js.map"
   },
   "entrypoints": [
     "static/css/main.b4c9dfde.css",
-    "static/js/main.0cb517c7.js"
+    "static/js/main.7c662b83.js"
   ]
 }
