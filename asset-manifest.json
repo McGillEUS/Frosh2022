@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.b4c9dfde.css",
-    "main.js": "/static/js/main.b8fde2e5.js",
+    "main.js": "/static/js/main.6ab235c1.js",
     "static/media/handbook.pdf": "/static/media/handbook.894e868ee837b6dafd22.pdf",
-    "static/media/frosh_logo.png": "/static/media/frosh_logo.3cc4cd4543b65a52d66f.png",
+    "static/media/header_welcome.png": "/static/media/header_welcome.bcb52213b902772e3f5e.png",
     "static/media/schedule.png": "/static/media/schedule.b61985f9d38b27f85a01.png",
-    "static/media/sponsors.png": "/static/media/sponsors.b49c27ed4328b62024cc.png",
-    "static/media/header_welcome.jpeg": "/static/media/header_welcome.dc9654e131ad7373c573.jpeg",
+    "static/media/frosh_logo.png": "/static/media/frosh_logo.2693a945237aa6ad37f0.png",
     "static/media/drivesafe.png": "/static/media/drivesafe.541c138cc77a184cc0bb.png",
     "static/media/osverse.png": "/static/media/osverse.26da7bb012bc24cf033d.png",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
     "static/media/walksafe.png": "/static/media/walksafe.7a229a93f28a2c56dee8.png",
     "static/media/sede.png": "/static/media/sede.65ce13ce85ad3b185b3d.png",
+    "static/media/sponsors.png": "/static/media/sponsors.c2248894d5436dd493f0.png",
     "static/media/eus-mhc.png": "/static/media/eus-mhc.8c4379e1158979cb731f.png",
     "static/media/peer-support.png": "/static/media/peer-support.ec61cfa4997033f90dfb.png",
     "static/media/student-wellness-hub.png": "/static/media/student-wellness-hub.ab788ce893404d2b623b.png",
@@ -21,10 +21,10 @@
     "static/media/campus-life-and-engagement.png": "/static/media/campus-life-and-engagement.f6ad8b0367cdc6a826af.png",
     "index.html": "/index.html",
     "main.b4c9dfde.css.map": "/static/css/main.b4c9dfde.css.map",
-    "main.b8fde2e5.js.map": "/static/js/main.b8fde2e5.js.map"
+    "main.6ab235c1.js.map": "/static/js/main.6ab235c1.js.map"
   },
   "entrypoints": [
     "static/css/main.b4c9dfde.css",
-    "static/js/main.b8fde2e5.js"
+    "static/js/main.6ab235c1.js"
   ]
 }
