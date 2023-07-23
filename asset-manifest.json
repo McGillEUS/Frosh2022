@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b4c9dfde.css",
-    "main.js": "/static/js/main.ee059f13.js",
+    "main.js": "/static/js/main.d1a32dba.js",
     "static/media/handbook.pdf": "/static/media/handbook.894e868ee837b6dafd22.pdf",
     "static/media/header_welcome.png": "/static/media/header_welcome.bcb52213b902772e3f5e.png",
     "static/media/sponsors.png": "/static/media/sponsors.559d48073ed73d58c297.png",
@@ -22,10 +22,10 @@
     "static/media/campus-life-and-engagement.png": "/static/media/campus-life-and-engagement.f6ad8b0367cdc6a826af.png",
     "index.html": "/index.html",
     "main.b4c9dfde.css.map": "/static/css/main.b4c9dfde.css.map",
-    "main.ee059f13.js.map": "/static/js/main.ee059f13.js.map"
+    "main.d1a32dba.js.map": "/static/js/main.d1a32dba.js.map"
   },
   "entrypoints": [
     "static/css/main.b4c9dfde.css",
-    "static/js/main.ee059f13.js"
+    "static/js/main.d1a32dba.js"
   ]
 }
