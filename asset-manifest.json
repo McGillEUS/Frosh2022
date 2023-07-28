@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b4c9dfde.css",
-    "main.js": "/static/js/main.62a56678.js",
+    "main.js": "/static/js/main.ccdf1bc6.js",
     "static/media/handbook.pdf": "/static/media/handbook.894e868ee837b6dafd22.pdf",
     "static/media/header_welcome.png": "/static/media/header_welcome.bcb52213b902772e3f5e.png",
     "static/media/sponsors.png": "/static/media/sponsors.559d48073ed73d58c297.png",
     "static/media/schedule.png": "/static/media/schedule.b61985f9d38b27f85a01.png",
-    "static/media/frosh_logo.png": "/static/media/frosh_logo.11e7308f519308ab22ce.png",
+    "static/media/frosh_logo.png": "/static/media/frosh_logo.b552b2df91269fac802e.png",
     "static/media/drivesafe.png": "/static/media/drivesafe.541c138cc77a184cc0bb.png",
     "static/media/osverse.png": "/static/media/osverse.26da7bb012bc24cf033d.png",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
@@ -22,10 +22,10 @@
     "static/media/campus-life-and-engagement.png": "/static/media/campus-life-and-engagement.f6ad8b0367cdc6a826af.png",
     "index.html": "/index.html",
     "main.b4c9dfde.css.map": "/static/css/main.b4c9dfde.css.map",
-    "main.62a56678.js.map": "/static/js/main.62a56678.js.map"
+    "main.ccdf1bc6.js.map": "/static/js/main.ccdf1bc6.js.map"
   },
   "entrypoints": [
     "static/css/main.b4c9dfde.css",
-    "static/js/main.62a56678.js"
+    "static/js/main.ccdf1bc6.js"
   ]
 }
