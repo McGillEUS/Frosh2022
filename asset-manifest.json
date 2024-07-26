@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4c9dfde.css",
-    "main.js": "/static/js/main.7cd3418c.js",
+    "main.css": "/static/css/main.bf2e5b1a.css",
+    "main.js": "/static/js/main.79024a3a.js",
     "static/media/handbook.pdf": "/static/media/handbook.5b9fd692df275ea312f9.pdf",
-    "static/media/header_welcome.png": "/static/media/header_welcome.bcb52213b902772e3f5e.png",
-    "static/media/sponsors.png": "/static/media/sponsors.f7013574b328fdb250d7.png",
-    "static/media/frosh_logo.png": "/static/media/frosh_logo.b552b2df91269fac802e.png",
+    "static/media/header.png": "/static/media/header.fa582fe247b668fefa3c.png",
+    "static/media/frosh_2024_logo_light.png": "/static/media/frosh_2024_logo_light.8b5b134ccf6b7d4efc0b.png",
+    "static/media/frosh_2024_logo_dark.png": "/static/media/frosh_2024_logo_dark.ad821a4c2cdf5210b300.png",
     "static/media/schedule.png": "/static/media/schedule.e2e62f0706f51f82b93d.png",
+    "static/media/altos.png": "/static/media/altos.0c156f4187392c4e0f4c.png",
+    "static/media/RainbowLoom.png": "/static/media/RainbowLoom.70871de00939acb18235.png",
+    "static/media/Chef.png": "/static/media/Chef.d73fa9396af6d6b3a21f.png",
     "static/media/drivesafe.png": "/static/media/drivesafe.541c138cc77a184cc0bb.png",
+    "static/media/Gerts.PNG": "/static/media/Gerts.52a2d405edabbe5f6e8b.PNG",
+    "static/media/legal.png": "/static/media/legal.58e8d6cccab049e548cc.png",
     "static/media/osverse.png": "/static/media/osverse.26da7bb012bc24cf033d.png",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
@@ -19,13 +24,16 @@
     "static/media/osd.png": "/static/media/osd.84f5aa9707483f8161e6.png",
     "static/media/mcgill.png": "/static/media/mcgill.959af3e8a79b58289f70.png",
     "static/media/licm.png": "/static/media/licm.b5317839f2389965b64d.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/campus-life-and-engagement.png": "/static/media/campus-life-and-engagement.f6ad8b0367cdc6a826af.png",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.b4c9dfde.css.map": "/static/css/main.b4c9dfde.css.map",
-    "main.7cd3418c.js.map": "/static/js/main.7cd3418c.js.map"
+    "main.bf2e5b1a.css.map": "/static/css/main.bf2e5b1a.css.map",
+    "main.79024a3a.js.map": "/static/js/main.79024a3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4c9dfde.css",
-    "static/js/main.7cd3418c.js"
+    "static/css/main.bf2e5b1a.css",
+    "static/js/main.79024a3a.js"
   ]
 }
