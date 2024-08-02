@@ -53,7 +53,7 @@ export default function Register() {
             Register Here
           </Button>
         </div>
-        {/*<div
+        <div
           style={{
             width: "fit-content",
             marginLeft: "auto",
@@ -64,12 +64,12 @@ export default function Register() {
           <Button
             variant="contained"
             size="large"
-            href="https://dochub.com/oweek-communications/EB5r38Awl013ZYpwXzZ1kD/pdf-frosh-2023-bursary-application-participants-pdf"
+            href="https://forms.office.com/pages/responsepage.aspx?id=cZYxzedSaEqvqfz4-J8J6r9HpiqHmzlMhDROkni5rK9UQjZBNzdFMVdZVDFGTzhRNDJINlQzQjlZTS4u"
             target="_blank"
           >
-            Bursary Form
+            Subsidy Form
           </Button>
-        </div>*/}
+        </div>
       </div>
     </div>
   );
