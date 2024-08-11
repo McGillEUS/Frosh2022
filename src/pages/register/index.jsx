@@ -27,13 +27,13 @@ export default function Register() {
             </div>
           ))}
           <Typography variant="p">
-            *You must complete Steps 1-4 before coming to pick up your
+            *You must complete Steps 1-5 before coming to pick up your
             credentials and gear*
           </Typography>
         </div>
         <div style={{paddingBottom: "50px"}}>
           <Typography variant="p">
-            <strong>Reach out to oweek.communications@eusmcgill.ca if you have nay questions.</strong>
+            <strong>Reach out to oweek.communications@eusmcgill.ca if you have any questions.</strong>
           </Typography>
         </div>
         <div

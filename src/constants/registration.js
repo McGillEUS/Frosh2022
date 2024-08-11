@@ -24,10 +24,10 @@ export const STEPS_TO_TAKE = [
     When prompted to add an additional “Zeffy fee”, select 0% or no. Your spot is <b>not reserved</b> until you have paid as well.
       </Typography>
     </div> 
-    {/*<strong>Step 5:</strong> Complete the MANDATORY trainings. There are 3 in total: the Sexual Violence
+    <strong>Step 5:</strong> Complete the MANDATORY trainings. There are <strong>3</strong> in total: the Sexual Violence
     training called <q>It Takes All of Us</q>, the <q>Anti - Oppression</q>{" "}
-    training and the <q>Frosh 101</q> training all on MyCourses<br></br><br></br> */}
-    <strong>Step 5:</strong> Come pick up your credentials and gear at your faculties Registration tent (DON'T FORGET YOUR MCGILL ID!),<br></br>  
+    training and the <q>Frosh 101</q> training all on MyCourses<br></br><br></br>
+    <strong>Step 6:</strong> Come pick up your credentials and gear at your faculties Registration tent (DON'T FORGET YOUR MCGILL ID!),<br></br>  
   </Typography>,
   
 ];
