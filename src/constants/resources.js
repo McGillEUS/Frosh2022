@@ -12,7 +12,7 @@ import Walksafe from "../images/resourceImages/walksafe.png";
 import StudentWellnessHub from "../images/resourceImages/student-wellness-hub.png";
 import PeerSupport from "../images/resourceImages/peer-support.png";
 import OSVERSE from "../images/resourceImages/osverse.png";
-import OSD from "../images/resourceImages/osd.png";
+import SAA from "../images/resourceImages/saa.jpg";
 import SACOMSS from "../images/resourceImages/sacomms.jpeg";
 import SEDE from "../images/resourceImages/sede.png";
 import LICM from "../images/resourceImages/licm.png";
@@ -232,16 +232,16 @@ export const RESOURCES = [
     ),
   },
   {
-    name: "Office for Students with Disabilities (OSD)",
+    name: "Student Accessibility and Achievement (SAA)",
     phoneNumber: null,
-    image: OSD,
+    image: SAA,
     description: (
       <Typography variant="p">
         Do you have a disability, mental health condition, chronic illness or
         other impairment that may impact your McGill experience? Visit the
-        Office for Students with Disabilities to find out about the services and
-        resources available to students through the OSD. For more information,
-        check out their <Link href="https://www.mcgill.ca/osd/">website</Link>.
+        Student Accessibility and Achievement to find out about the services and
+        resources available to students through the SAA. For more information,
+        check out their <Link href="https://www.mcgill.ca/access-achieve/">website</Link>.
         If you have any questions or concerns about accessibility during Frosh,
         please reach out to the Engineering Inclusivity Coordinator for more
         details at oweek.inclusivity@mcgilleus.ca
