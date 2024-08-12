@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf2e5b1a.css",
-    "main.js": "/static/js/main.c281aa4a.js",
+    "main.js": "/static/js/main.c151ecb4.js",
     "static/media/handbook.pdf": "/static/media/handbook.5b9fd692df275ea312f9.pdf",
     "static/media/header.png": "/static/media/header.fa582fe247b668fefa3c.png",
     "static/media/frosh_2024_logo_light.png": "/static/media/frosh_2024_logo_light.8b5b134ccf6b7d4efc0b.png",
@@ -12,6 +12,7 @@
     "static/media/Chef.png": "/static/media/Chef.d73fa9396af6d6b3a21f.png",
     "static/media/drivesafe.png": "/static/media/drivesafe.541c138cc77a184cc0bb.png",
     "static/media/Gerts.PNG": "/static/media/Gerts.52a2d405edabbe5f6e8b.PNG",
+    "static/media/saa.jpg": "/static/media/saa.f7847136f93063da3fba.jpg",
     "static/media/legal.png": "/static/media/legal.58e8d6cccab049e548cc.png",
     "static/media/osverse.png": "/static/media/osverse.26da7bb012bc24cf033d.png",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
@@ -21,7 +22,6 @@
     "static/media/eus-mhc.png": "/static/media/eus-mhc.8c4379e1158979cb731f.png",
     "static/media/peer-support.png": "/static/media/peer-support.ec61cfa4997033f90dfb.png",
     "static/media/student-wellness-hub.png": "/static/media/student-wellness-hub.ab788ce893404d2b623b.png",
-    "static/media/osd.png": "/static/media/osd.84f5aa9707483f8161e6.png",
     "static/media/mcgill.png": "/static/media/mcgill.959af3e8a79b58289f70.png",
     "static/media/licm.png": "/static/media/licm.b5317839f2389965b64d.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -30,10 +30,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.bf2e5b1a.css.map": "/static/css/main.bf2e5b1a.css.map",
-    "main.c281aa4a.js.map": "/static/js/main.c281aa4a.js.map"
+    "main.c151ecb4.js.map": "/static/js/main.c151ecb4.js.map"
   },
   "entrypoints": [
     "static/css/main.bf2e5b1a.css",
-    "static/js/main.c281aa4a.js"
+    "static/js/main.c151ecb4.js"
   ]
 }
