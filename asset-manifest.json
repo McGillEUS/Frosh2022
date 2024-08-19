@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bf2e5b1a.css",
-    "main.js": "/static/js/main.c151ecb4.js",
+    "main.js": "/static/js/main.2fea7b0d.js",
     "static/media/handbook.pdf": "/static/media/handbook.5b9fd692df275ea312f9.pdf",
     "static/media/header.png": "/static/media/header.fa582fe247b668fefa3c.png",
     "static/media/frosh_2024_logo_light.png": "/static/media/frosh_2024_logo_light.8b5b134ccf6b7d4efc0b.png",
     "static/media/frosh_2024_logo_dark.png": "/static/media/frosh_2024_logo_dark.ad821a4c2cdf5210b300.png",
-    "static/media/schedule.png": "/static/media/schedule.e2e62f0706f51f82b93d.png",
+    "static/media/schedule_2024.jpg": "/static/media/schedule_2024.3d572827fc407ccc238a.jpg",
     "static/media/altos.png": "/static/media/altos.0c156f4187392c4e0f4c.png",
     "static/media/RainbowLoom.png": "/static/media/RainbowLoom.70871de00939acb18235.png",
     "static/media/Chef.png": "/static/media/Chef.d73fa9396af6d6b3a21f.png",
@@ -30,10 +30,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.bf2e5b1a.css.map": "/static/css/main.bf2e5b1a.css.map",
-    "main.c151ecb4.js.map": "/static/js/main.c151ecb4.js.map"
+    "main.2fea7b0d.js.map": "/static/js/main.2fea7b0d.js.map"
   },
   "entrypoints": [
     "static/css/main.bf2e5b1a.css",
-    "static/js/main.c151ecb4.js"
+    "static/js/main.2fea7b0d.js"
   ]
 }
