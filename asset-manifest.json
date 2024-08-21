@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf2e5b1a.css",
-    "main.js": "/static/js/main.2fea7b0d.js",
+    "main.js": "/static/js/main.e9d3ec69.js",
     "static/media/handbook.pdf": "/static/media/handbook.5b9fd692df275ea312f9.pdf",
     "static/media/header.png": "/static/media/header.fa582fe247b668fefa3c.png",
     "static/media/frosh_2024_logo_light.png": "/static/media/frosh_2024_logo_light.8b5b134ccf6b7d4efc0b.png",
@@ -15,6 +15,7 @@
     "static/media/saa.jpg": "/static/media/saa.f7847136f93063da3fba.jpg",
     "static/media/legal.png": "/static/media/legal.58e8d6cccab049e548cc.png",
     "static/media/osverse.png": "/static/media/osverse.26da7bb012bc24cf033d.png",
+    "static/media/videographer.png": "/static/media/videographer.9a01bcfedc0d496a01a5.png",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
     "static/media/walksafe.png": "/static/media/walksafe.7a229a93f28a2c56dee8.png",
@@ -30,10 +31,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.bf2e5b1a.css.map": "/static/css/main.bf2e5b1a.css.map",
-    "main.2fea7b0d.js.map": "/static/js/main.2fea7b0d.js.map"
+    "main.e9d3ec69.js.map": "/static/js/main.e9d3ec69.js.map"
   },
   "entrypoints": [
     "static/css/main.bf2e5b1a.css",
-    "static/js/main.2fea7b0d.js"
+    "static/js/main.e9d3ec69.js"
   ]
 }
