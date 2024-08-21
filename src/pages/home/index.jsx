@@ -9,6 +9,7 @@ import Altos from "../../images/sponsor/altos.png";
 import Chef from "../../images/sponsor/Chef.png";
 import Gerts from "../../images/sponsor/Gerts.PNG";
 import LegalClinic from "../../images/sponsor/legal.png";
+import Videographer from "../../images/sponsor/videographer.png";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 
@@ -48,6 +49,7 @@ export default function Home() {
     { src: Chef, link: "https://www.chefoncalldelivery.com/" },
     { src: Gerts, link: "https://www.gertscampusbar.ca/" },
     {src: LegalClinic, link: "https://licm.ca/" },
+    {src: Videographer, link: "https://jfilmzproductions.com/"},
   ];
 
   const imageStyle = {
