@@ -10,6 +10,12 @@ import Chef from "../../images/sponsor/Chef.png";
 import Gerts from "../../images/sponsor/Gerts.PNG";
 import LegalClinic from "../../images/sponsor/legal.png";
 import Videographer from "../../images/sponsor/videographer.png";
+import Ambos from "../../images/sponsor/ambos.png";
+import Cafe from "../../images/sponsor/cafecampus.png";
+import Fritzrovia from "../../images/sponsor/Fitzrovia.png";
+import RBC from "../../images/sponsor/RBC.png";
+import GENIUM360 from "../../images/sponsor/GENIUM360.png";
+import LaCite from "../../images/sponsor/la_cite.jpg";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 
@@ -49,6 +55,12 @@ export default function Home() {
     { src: Chef, link: "https://www.chefoncalldelivery.com/" },
     { src: Gerts, link: "https://www.gertscampusbar.ca/" },
     {src: LegalClinic, link: "https://licm.ca/" },
+    {src: Cafe, link: "https://www.cafecampus.com/"},
+    {src: Fritzrovia, link: "https://fitzrovia.ca/"},
+    {src: RBC, link: "https://www.rbcroyalbank.com/dms/students/oncampus/index.html"},
+    {src: LaCite, link: "https://www.bgoliving.com/residential/lacite"},
+    {src: GENIUM360, link: "https://www.genium360.ca/en-us/"},
+    {src: Ambos},
     {src: Videographer, link: "https://jfilmzproductions.com/"},
   ];
 
