@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.bf2e5b1a.css",
-    "main.js": "/static/js/main.ab385033.js",
-    "static/media/handbook.pdf": "/static/media/handbook.5b9fd692df275ea312f9.pdf",
+    "main.js": "/static/js/main.8233a6bb.js",
+    "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.fa582fe247b668fefa3c.png",
     "static/media/frosh_2024_logo_light.png": "/static/media/frosh_2024_logo_light.8b5b134ccf6b7d4efc0b.png",
     "static/media/frosh_2024_logo_dark.png": "/static/media/frosh_2024_logo_dark.ad821a4c2cdf5210b300.png",
@@ -35,10 +35,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.bf2e5b1a.css.map": "/static/css/main.bf2e5b1a.css.map",
-    "main.ab385033.js.map": "/static/js/main.ab385033.js.map"
+    "main.8233a6bb.js.map": "/static/js/main.8233a6bb.js.map"
   },
   "entrypoints": [
     "static/css/main.bf2e5b1a.css",
-    "static/js/main.ab385033.js"
+    "static/js/main.8233a6bb.js"
   ]
 }
