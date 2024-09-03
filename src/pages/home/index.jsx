@@ -16,6 +16,8 @@ import Fritzrovia from "../../images/sponsor/Fitzrovia.png";
 import RBC from "../../images/sponsor/RBC.png";
 import GENIUM360 from "../../images/sponsor/GENIUM360.png";
 import LaCite from "../../images/sponsor/la_cite.jpg";
+import OFour from "../../images/sponsor/Ofour.png";
+import Malak from "../../images/sponsor/Malak.png";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 
@@ -61,6 +63,8 @@ export default function Home() {
     {src: LaCite, link: "https://www.bgoliving.com/residential/lacite"},
     {src: GENIUM360, link: "https://www.genium360.ca/en-us/"},
     {src: Ambos},
+    {src: OFour, linke: "https://www.instagram.com/ofour.montreal/?hl=en"},
+    {src: Malak, linke: "https://www.instagram.com/malakaltawouk.ca/"},
     {src: Videographer, link: "https://jfilmzproductions.com/"},
   ];
 
@@ -162,7 +166,7 @@ export default function Home() {
               showDots={false}
               centerMode={true}
               autoPlay={true}
-              autoPlaySpeed={3000}
+              autoPlaySpeed={2500}
               infinite={true}
               keyBoardControl={true}
               containerClass="carousel-container"
