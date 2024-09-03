@@ -63,8 +63,8 @@ export default function Home() {
     {src: LaCite, link: "https://www.bgoliving.com/residential/lacite"},
     {src: GENIUM360, link: "https://www.genium360.ca/en-us/"},
     {src: Ambos},
-    {src: OFour, linke: "https://www.instagram.com/ofour.montreal/?hl=en"},
-    {src: Malak, linke: "https://www.instagram.com/malakaltawouk.ca/"},
+    {src: OFour, link: "https://www.instagram.com/ofour.montreal/?hl=en"},
+    {src: Malak, link: "https://www.instagram.com/malakaltawouk.ca?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="},
     {src: Videographer, link: "https://jfilmzproductions.com/"},
   ];
 
