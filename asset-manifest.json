@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf2e5b1a.css",
-    "main.js": "/static/js/main.f85f6728.js",
+    "main.js": "/static/js/main.b522a561.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.fa582fe247b668fefa3c.png",
     "static/media/frosh_2024_logo_light.png": "/static/media/frosh_2024_logo_light.8b5b134ccf6b7d4efc0b.png",
@@ -37,10 +37,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.bf2e5b1a.css.map": "/static/css/main.bf2e5b1a.css.map",
-    "main.f85f6728.js.map": "/static/js/main.f85f6728.js.map"
+    "main.b522a561.js.map": "/static/js/main.b522a561.js.map"
   },
   "entrypoints": [
     "static/css/main.bf2e5b1a.css",
-    "static/js/main.f85f6728.js"
+    "static/js/main.b522a561.js"
   ]
 }
