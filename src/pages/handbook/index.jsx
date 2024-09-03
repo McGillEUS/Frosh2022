@@ -1,5 +1,5 @@
 import React from "react";
-import handbook from "../../images/handbook.pdf";
+import handbook from "../../images/handbook_2024.pdf";
 import { Button } from "@mui/material";
 export default function Handbook() {
   return (
@@ -15,8 +15,8 @@ export default function Handbook() {
       <Button
         variant="contained"
         size="large"
-        href={require("../../images/handbook.pdf")}
-        download="handbook.pdf"
+        href={require("../../images/handbook_2024.pdf")}
+        download="handbook_2024.pdf"
         style={{
           marginBottom: "20px",
           borderRadius: "5px",

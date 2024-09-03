@@ -5,6 +5,7 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import MenuIcon from "@mui/icons-material/Menu";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
 import MapIcon from "@mui/icons-material/Map";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
@@ -34,7 +35,7 @@ const pages = [
   { name: "Home", link: "", icon: <HomeIcon /> },
   { name: "Schedule", link: "schedule", icon: <MessageIcon /> },
   { name: "Map", link: "map", icon: <MapIcon /> },
-  //{ name: "Handbook", link: "handbook", icon: <MenuBookIcon /> },
+  { name: "Handbook", link: "handbook", icon: <MenuBookIcon /> },
   { name: "Resources", link: "resources", icon: <AccessibilityNewIcon /> },
   { name: "FAQ", link: "faq", icon: <HelpOutlineIcon /> },
   { name: "Register", link: "register", icon: <ArrowCircleRightIcon /> },
