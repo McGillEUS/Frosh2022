@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf2e5b1a.css",
-    "main.js": "/static/js/main.b522a561.js",
+    "main.css": "/static/css/main.c633666d.css",
+    "main.js": "/static/js/main.a17d14fb.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.fa582fe247b668fefa3c.png",
     "static/media/frosh_2024_logo_light.png": "/static/media/frosh_2024_logo_light.8b5b134ccf6b7d4efc0b.png",
@@ -36,11 +36,11 @@
     "static/media/campus-life-and-engagement.png": "/static/media/campus-life-and-engagement.f6ad8b0367cdc6a826af.png",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.bf2e5b1a.css.map": "/static/css/main.bf2e5b1a.css.map",
-    "main.b522a561.js.map": "/static/js/main.b522a561.js.map"
+    "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
+    "main.a17d14fb.js.map": "/static/js/main.a17d14fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf2e5b1a.css",
-    "static/js/main.b522a561.js"
+    "static/css/main.c633666d.css",
+    "static/js/main.a17d14fb.js"
   ]
 }
