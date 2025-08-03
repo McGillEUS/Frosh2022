@@ -82,7 +82,7 @@ const ResponsiveAppBar = () => {
                 textDecoration: "none",
               }}
             >
-              McGill Engineering Frosh 2024
+              McGill Engineering Frosh 2025
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

@@ -44,7 +44,7 @@ export default function Footer() {
           textAlign: "center",
         }}
       >
-        McGill Engineering Frosh 2024
+        McGill Engineering Frosh 2025
       </Typography>
       <Typography
         variant="h6"
@@ -62,16 +62,6 @@ export default function Footer() {
           width: "100%",
         }}
       >
-        (514) 398-4396
-      </Typography>
-      <Typography
-        variant="h6"
-        style={{
-          fontSize: "14px",
-          width: "100%",
-          textAlign: "center",
-        }}
-      >
       oweek.communications@mcgilleus.ca
       </Typography>
       <hr style={{ width: "50%", opacity: 0.2 }} />
@@ -84,7 +74,7 @@ export default function Footer() {
           opacity: 0.7,
         }}
       >
-        &copy; Engineering Undergraduate Society of McGill University 2024 <br />
+        &copy; Engineering Undergraduate Society of McGill University 2025 <br />
         Made by Ryan Reszetnik
       </Typography>
     </div>

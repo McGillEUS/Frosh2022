@@ -3,19 +3,19 @@ export const FAQQuestions = [
     question: "What is Frosh?",
     category: "general",
     answer:
-      "McGill Engineering Frosh 2024 is a four-day event for new undergraduate Engineering students at McGill. During Frosh new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
+      "McGill Engineering Frosh 2025 is a four-day event for new undergraduate Engineering students at McGill. During Frosh, new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
   },
   {
     question: "When is Frosh?",
     category: "general",
     answer:
-      "Frosh takes place from August 22th - August 25th 2024. Classes will begin on August 28th",
+      "Frosh 2025 will take place from August 29th - September 1st. Classes will begin on August 27th but froshies will not be missing any school as a result of Frosh.",
   },
   {
     question: "What happens during frosh?",
     category: "general",
     answer:
-      "Frosh is made up of a variety of social events, completely organized by students.  You’ll be attending all the events with your group of fellow engineers. For a full outline of what happens at each of our events, see the schedule on our social media and on the schedule page.",
+      "Frosh is made up of a variety of social events, completely organized by students.  Students will be attending all events with their group made up of other engineering students, led by upper year student leaders. For a full outline of what happens at each of our events, please refer to our social media posts (instagram @engineeringfrosh) and see the schedule page for last year's schedule for reference.",
   },
 
   {
@@ -28,7 +28,7 @@ export const FAQQuestions = [
     question: "Why should I do Frosh?",
     category: "general",
     answer:
-      "Frosh is your first and best opportunity to get acquainted with McGill Engineering kick-start your McGill career. You’ll meet older engineering student mentors and new engineering students like yourself. The friendships you make during Frosh will last through the rest of your McGill career and beyond.",
+      "Frosh is your first and best opportunity to get acquainted with the Montreal community, with McGill Engineering, and to kick-start your McGill career. You’ll meet older engineering student mentors and new engineering students like yourself. The friendships you make during Frosh may last through the rest of your McGill career and beyond.",
   },
   {
     question: "How much does Frosh cost?",
@@ -40,7 +40,7 @@ export const FAQQuestions = [
     question: "Are Frosh events mandatory?",
     category: "general",
     answer:
-      "Not at all. We encourage you to participate in all Frosh events, but if you can’t make it or need to take a break that’s absolutely okay. If possible, please tell your Frosh leaders that you won’t be attending so they don’t wait for you.",
+      "Not at all. We encourage froshies to participate in all Frosh events, but if they can’t make it or need to take a break that is absolutely okay. Students are encouraged to tell their Frosh leaders if they won’t be attending a certain event so they know not to wait.",
   },
   {
     question: "Do I have to register?",
@@ -94,13 +94,6 @@ export const FAQQuestions = [
     category: "registration",
     answer:
       "Any concerns can be sent to oweek@mcgilleus.ca, and the appropriate Coordinator will reply to your question.",
-  },
-  {
-    question:
-      "Will there be in-person events during the 2023 fall semester?",
-    category: "general",
-    answer:
-      "Yes! This year will be a fully in-person frosh and a fully in-person fall semester.",
   },
   {
     question: "Where can I learn more about groups and clubs on campus?",
