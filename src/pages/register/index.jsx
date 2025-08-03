@@ -61,14 +61,6 @@ export default function Register() {
             paddingTop: "10px",
           }}
         >
-          <Button
-            variant="contained"
-            size="large"
-            href="https://forms.office.com/pages/responsepage.aspx?id=cZYxzedSaEqvqfz4-J8J6r9HpiqHmzlMhDROkni5rK9UQjZBNzdFMVdZVDFGTzhRNDJINlQzQjlZTS4u"
-            target="_blank"
-          >
-            Subsidy Form
-          </Button>
         </div>
       </div>
     </div>
