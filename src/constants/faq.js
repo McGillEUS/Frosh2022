@@ -22,7 +22,7 @@ export const FAQQuestions = [
     question: "How do I register?",
     category: "registration",
     answer:
-      "Registration for all Froshes takes place through the same online system, which you can access through the “Registration” page. Registration is open up until the first day of Frosh (August 22th).",
+      "Registration for all Froshes takes place through the same online system, which you can access through the “Registration” page. Registration is open until August 23rd, or until tickets sell out!",
   },
   {
     question: "Why should I do Frosh?",
@@ -45,12 +45,12 @@ export const FAQQuestions = [
   {
     question: "Do I have to register?",
     category: "registration",
-    answer: "Yes. To attend any Frosh events, you must register online.",
+    answer: "Yes. To attend any Frosh events, you must register online and follow all the steps outlined in our Registration page linked above.",
   },
   {
     question: "I made a mistake on my registration, how can I correct it?",
     category: "registration",
-    answer: "Send us an email to oweek@mcgilleus.ca at any time.",
+    answer: "Send us an email at oweek@mcgilleus.ca at any time.",
   },
 
   {
@@ -83,7 +83,7 @@ export const FAQQuestions = [
       "Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in Engineering or Architecture. Frosh welcomes students of all ages, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh.",
   },
   {
-    question: "I’m not in Engineering, can I sign up for Engineering Frosh?",
+    question: "I am not in Engineering, can I sign up for Engineering Frosh?",
     category: "registration",
     answer:
       "Probably not. Students are strongly suggested to participate in the Frosh of their faculty, or in a non-Faculty Frosh, so they can make connections with people they will be working alongside throughout their McGill career. If you have unusual circumstances and think that Engineering Frosh would be the best fit for you (e.g. you transferred Faculties after registering for Frosh), send an email to oweek@mcgilleus.ca.",
@@ -100,5 +100,12 @@ export const FAQQuestions = [
     category: "EUS",
     answer:
       "There are a whole bunch of clubs and design teams invited to do presentations and introduce themselves at various frosh events. There will also be an involvement fair and a more specific EUS involvement day in the first few weeks of classes.",
+  },
+  {
+    question:
+      "What if the price of Frosh is outside of my budget?",
+    category: "registration",
+    answer:
+      "If you require any financial assistance to participate in Frosh, we have bursaries available! To be eligible for a bursary, you must be able to pay for your ticket before applying. If this poses a significant barrier, please email Andrew at oweek.inclusivity@mcgilleus.ca. The bursary can be found here https://forms.office.com/r/mctZjE7srZ or in the Registration tab linked above.",
   },
 ];
