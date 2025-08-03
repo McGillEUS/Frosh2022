@@ -48,7 +48,7 @@ export default function Register() {
             variant="contained"
             size="large"
             target="_blank"
-            href="https://involvement.mcgill.ca/organization/eus"
+            href="https://involvement.mcgill.ca"
           >
             Register Here
           </Button>
@@ -61,6 +61,14 @@ export default function Register() {
             paddingTop: "10px",
           }}
         >
+            <Button
+            variant="contained"
+            size="large"
+            href="https://forms.office.com/r/mctZjE7srZ"
+            target="_blank"
+          >
+            Bursary Form
+          </Button>
         </div>
       </div>
     </div>
