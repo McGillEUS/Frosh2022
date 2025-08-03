@@ -3,7 +3,8 @@ import { Typography } from "@mui/material";
 export const HOW_TO_REGISTER =
   "Registration opens July 28th and is done on the MyInvolvement website. " + 
     "It is now open at the link below! Please follow the instructions below to secure your spot for Frosh. " +
-      "If you have any questions, consult our FAQ page and then feel free to contact us on any platform linked at the bottom of the page.";
+      "If you require any financial assistance to participate in Frosh, we have bursaries available! Please consult our FAQ Registration Page for more details. "+
+        "If you have any further questions, also consult our FAQ page and then feel free to contact us on any platform linked at the bottom of the page.";
 
 export const STEPS_TO_TAKE = [
   <Typography variant="p">
