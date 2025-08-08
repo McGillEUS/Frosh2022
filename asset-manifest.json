@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c633666d.css",
-    "main.js": "/static/js/main.e34b25b1.js",
+    "main.js": "/static/js/main.cd0bd10f.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.fa582fe247b668fefa3c.png",
-    "static/media/frosh_2024_logo_light.png": "/static/media/frosh_2024_logo_light.8b5b134ccf6b7d4efc0b.png",
-    "static/media/frosh_2024_logo_dark.png": "/static/media/frosh_2024_logo_dark.ad821a4c2cdf5210b300.png",
     "static/media/schedule_2024.jpg": "/static/media/schedule_2024.3d572827fc407ccc238a.jpg",
+    "static/media/frosh_2025_logo_light.png": "/static/media/frosh_2025_logo_light.e1f1918b527591717c65.png",
     "static/media/Malak.png": "/static/media/Malak.dc7cfa677e8ae038414b.png",
     "static/media/cafecampus.png": "/static/media/cafecampus.ac2049029fbc27338041.png",
     "static/media/altos.png": "/static/media/altos.0c156f4187392c4e0f4c.png",
@@ -23,6 +22,7 @@
     "static/media/videographer.png": "/static/media/videographer.9a01bcfedc0d496a01a5.png",
     "static/media/la_cite.jpg": "/static/media/la_cite.e9f2bdff9bbbf1d323c4.jpg",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
+    "static/media/frosh_2025_logo_dark.png": "/static/media/frosh_2025_logo_dark.597449635fae3337e6cd.png",
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
     "static/media/walksafe.png": "/static/media/walksafe.7a229a93f28a2c56dee8.png",
     "static/media/sede.png": "/static/media/sede.65ce13ce85ad3b185b3d.png",
@@ -37,10 +37,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
-    "main.e34b25b1.js.map": "/static/js/main.e34b25b1.js.map"
+    "main.cd0bd10f.js.map": "/static/js/main.cd0bd10f.js.map"
   },
   "entrypoints": [
     "static/css/main.c633666d.css",
-    "static/js/main.e34b25b1.js"
+    "static/js/main.cd0bd10f.js"
   ]
 }
