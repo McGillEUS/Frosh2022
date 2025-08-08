@@ -16,8 +16,8 @@ import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-import LightFroshIcon from "../images/frosh_2024_logo_light.png";
-import DarkFroshIcon from "../images/frosh_2024_logo_dark.png";
+import LightFroshIcon from "../images/frosh_2025_logo_light.png";
+import DarkFroshIcon from "../images/frosh_2025_logo_dark.png";
 
 import { useNavigate } from "react-router";
 import {
@@ -121,7 +121,7 @@ const ResponsiveAppBar = () => {
                 textDecoration: "none",
               }}
             >
-              Frosh 2024
+              Frosh 2025
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page, i) => (
