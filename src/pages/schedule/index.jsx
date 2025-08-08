@@ -8,8 +8,8 @@ export default function Schedule() {
       <Typography variant="h1">Schedule 2024</Typography>
 
       {<Typography variant="h6" style={{ marginTop: "20px" }}>
-        The schedule will be released soon. Stay tuned!
-        Here is a previous years schedule as an example of the events that will happen
+        The 2025 schedule will be released soon. Stay tuned!
+        Here is a previous year's schedule as an example of the events that will happen.
       </Typography>
       }
       <Card
