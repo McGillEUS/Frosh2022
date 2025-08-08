@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.c633666d.css",
-    "main.js": "/static/js/main.7a1e3785.js",
+    "main.js": "/static/js/main.c293ac8a.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
-    "static/media/header.png": "/static/media/header.2ba9615028024abc1740.png",
+    "static/media/header.png": "/static/media/header.c8fa33fa96188eff3759.png",
     "static/media/schedule_2024.jpg": "/static/media/schedule_2024.3d572827fc407ccc238a.jpg",
     "static/media/frosh_2025_logo_light.png": "/static/media/frosh_2025_logo_light.e1f1918b527591717c65.png",
     "static/media/Malak.png": "/static/media/Malak.dc7cfa677e8ae038414b.png",
@@ -17,12 +17,12 @@
     "static/media/Gerts.PNG": "/static/media/Gerts.52a2d405edabbe5f6e8b.PNG",
     "static/media/saa.jpg": "/static/media/saa.f7847136f93063da3fba.jpg",
     "static/media/legal.png": "/static/media/legal.58e8d6cccab049e548cc.png",
+    "static/media/frosh_2025_logo_dark.png": "/static/media/frosh_2025_logo_dark.6b2a0c1f8f3cd14d814f.png",
     "static/media/RBC.png": "/static/media/RBC.56edda7d87493391531a.png",
     "static/media/osverse.png": "/static/media/osverse.26da7bb012bc24cf033d.png",
     "static/media/videographer.png": "/static/media/videographer.9a01bcfedc0d496a01a5.png",
     "static/media/la_cite.jpg": "/static/media/la_cite.e9f2bdff9bbbf1d323c4.jpg",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
-    "static/media/frosh_2025_logo_dark.png": "/static/media/frosh_2025_logo_dark.597449635fae3337e6cd.png",
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
     "static/media/walksafe.png": "/static/media/walksafe.7a229a93f28a2c56dee8.png",
     "static/media/sede.png": "/static/media/sede.65ce13ce85ad3b185b3d.png",
@@ -37,10 +37,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
-    "main.7a1e3785.js.map": "/static/js/main.7a1e3785.js.map"
+    "main.c293ac8a.js.map": "/static/js/main.c293ac8a.js.map"
   },
   "entrypoints": [
     "static/css/main.c633666d.css",
-    "static/js/main.7a1e3785.js"
+    "static/js/main.c293ac8a.js"
   ]
 }
