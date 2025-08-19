@@ -15,8 +15,8 @@ export default function Map() {
         }}
       >
         <iframe
-          title="Frosh Map"
-          src="https://www.google.com/maps/d/u/3/embed?mid=1FTAr6GvwvJBJlaF2js3UDSszeudkIZc&ehbc=2E312F"
+          title="Frosh HotspotMap 2025"
+          src=""
           width="640"
           style={{ maxWidth: "calc(100% - 24px)", marginLeft: "10px" }}
           height="480"
