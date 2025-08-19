@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c633666d.css",
-    "main.js": "/static/js/main.26bf932d.js",
+    "main.js": "/static/js/main.0395f8c8.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.c8fa33fa96188eff3759.png",
     "static/media/schedule_2024.jpg": "/static/media/schedule_2024.3d572827fc407ccc238a.jpg",
@@ -35,10 +35,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
-    "main.26bf932d.js.map": "/static/js/main.26bf932d.js.map"
+    "main.0395f8c8.js.map": "/static/js/main.0395f8c8.js.map"
   },
   "entrypoints": [
     "static/css/main.c633666d.css",
-    "static/js/main.26bf932d.js"
+    "static/js/main.0395f8c8.js"
   ]
 }
