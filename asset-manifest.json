@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c633666d.css",
-    "main.js": "/static/js/main.c293ac8a.js",
+    "main.js": "/static/js/main.de4f58d6.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.c8fa33fa96188eff3759.png",
     "static/media/schedule_2024.jpg": "/static/media/schedule_2024.3d572827fc407ccc238a.jpg",
@@ -9,9 +9,6 @@
     "static/media/Malak.png": "/static/media/Malak.dc7cfa677e8ae038414b.png",
     "static/media/cafecampus.png": "/static/media/cafecampus.ac2049029fbc27338041.png",
     "static/media/altos.png": "/static/media/altos.0c156f4187392c4e0f4c.png",
-    "static/media/RainbowLoom.png": "/static/media/RainbowLoom.70871de00939acb18235.png",
-    "static/media/ambos.png": "/static/media/ambos.454c873428fbe6333af3.png",
-    "static/media/Ofour.png": "/static/media/Ofour.ab1c216a05e5a4fd9812.png",
     "static/media/Chef.png": "/static/media/Chef.d73fa9396af6d6b3a21f.png",
     "static/media/drivesafe.png": "/static/media/drivesafe.541c138cc77a184cc0bb.png",
     "static/media/Gerts.PNG": "/static/media/Gerts.52a2d405edabbe5f6e8b.PNG",
@@ -37,10 +34,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
-    "main.c293ac8a.js.map": "/static/js/main.c293ac8a.js.map"
+    "main.de4f58d6.js.map": "/static/js/main.de4f58d6.js.map"
   },
   "entrypoints": [
     "static/css/main.c633666d.css",
-    "static/js/main.c293ac8a.js"
+    "static/js/main.de4f58d6.js"
   ]
 }
