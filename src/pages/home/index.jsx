@@ -4,19 +4,14 @@ import React, { Fragment, useState } from "react";
 import { WHAT_IS_FROSH } from "../../constants/home";
 import Header from "../../images/header.png";
 import Prep101 from "../../images/sponsor/prep101.png";
-import RainbowLoom from "../../images/sponsor/RainbowLoom.png";
 import Altos from "../../images/sponsor/altos.png";
 import Chef from "../../images/sponsor/Chef.png";
 import Gerts from "../../images/sponsor/Gerts.PNG";
 import LegalClinic from "../../images/sponsor/legal.png";
 import Videographer from "../../images/sponsor/videographer.png";
-import Ambos from "../../images/sponsor/ambos.png";
 import Cafe from "../../images/sponsor/cafecampus.png";
-import Fritzrovia from "../../images/sponsor/Fitzrovia.png";
 import RBC from "../../images/sponsor/RBC.png";
-import GENIUM360 from "../../images/sponsor/GENIUM360.png";
 import LaCite from "../../images/sponsor/la_cite.jpg";
-import OFour from "../../images/sponsor/Ofour.png";
 import Malak from "../../images/sponsor/Malak.png";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
@@ -52,18 +47,13 @@ export default function Home() {
 
   const sponsorData = [
     { src: Prep101, link: "https://www.prep101.com/university/mcgill/" },
-    { src: RainbowLoom, link: "https://rainbowloom.com/" },
     { src: Altos, link: "https://altorestaurant.ca/en/" },
     { src: Chef, link: "https://www.chefoncalldelivery.com/" },
     { src: Gerts, link: "https://www.gertscampusbar.ca/" },
     {src: LegalClinic, link: "https://licm.ca/" },
     {src: Cafe, link: "https://www.cafecampus.com/"},
-    {src: Fritzrovia, link: "https://fitzrovia.ca/"},
     {src: RBC, link: "https://www.rbcroyalbank.com/dms/students/oncampus/index.html"},
     {src: LaCite, link: "https://www.bgoliving.com/residential/lacite"},
-    {src: GENIUM360, link: "https://www.genium360.ca/en-us/"},
-    {src: Ambos},
-    {src: OFour, link: "https://www.instagram.com/ofour.montreal/?hl=en"},
     {src: Malak, link: "https://www.instagram.com/malakaltawouk.ca?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="},
     {src: Videographer, link: "https://jfilmzproductions.com/"},
   ];
@@ -130,14 +120,16 @@ export default function Home() {
             height: "fit-content",
           }}
         >
-          <Typography variant="h2">Frosh Trailer</Typography>
+          <Typography variant="h2">Frosh Trailer 2025</Typography>
           <iframe
-            title="Frosh Trailer"
+            title="Frosh Trailer 2025"
             width="100%"
             height="400"
-            src="https://www.youtube.com/embed/lH0lnraXZEU?si=aK3yvcv78Y2eNy5H"
-            frameBorder="10"
+            src="https://www.youtube.com/embed/aJa9L87LvJw"
+            style={{ border: 0, display: 'block' }}
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            referrerPolicy="strict-origin-when-cross-origin"
+  allowFullScreen
           />
         </div>
         <div style={{ marginTop: "50px" }}>
