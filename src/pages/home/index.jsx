@@ -47,11 +47,11 @@ export default function Home() {
   };
 
   const sponsorData = [
-    { src: Prep101, link: "https://www.prep101.com/university/mcgill/" },
+    { src: Prep101},
     { src: Altos, link: "https://altorestaurant.ca/en/" },
     { src: Chef, link: "https://www.chefoncalldelivery.com/" },
     { src: Gerts, link: "https://www.gertscampusbar.ca/" },
-    {src: LegalClinic, link: "https://licm.ca/" },
+    {src: LegalClinic},
     {src: Cafe, link: "https://www.cafecampus.com/"},
     {src: RBC, link: "https://www.rbcroyalbank.com/dms/students/oncampus/index.html"},
     {src: LaCite, link: "https://www.bgoliving.com/residential/lacite"},
