@@ -57,6 +57,7 @@ export default function Home() {
     {src: LaCite, link: "https://www.bgoliving.com/residential/lacite"},
     {src: Malak, link: "https://www.instagram.com/malakaltawouk.ca?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="},
     {src: Videographer, link: "https://jfilmzproductions.com/"},
+    {src: UberEats},
   ];
 
   const imageStyle = {
