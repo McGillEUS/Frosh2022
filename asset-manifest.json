@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c633666d.css",
-    "main.js": "/static/js/main.3431155b.js",
+    "main.js": "/static/js/main.26bf932d.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.c8fa33fa96188eff3759.png",
     "static/media/schedule_2024.jpg": "/static/media/schedule_2024.3d572827fc407ccc238a.jpg",
@@ -20,6 +20,7 @@
     "static/media/videographer.png": "/static/media/videographer.9a01bcfedc0d496a01a5.png",
     "static/media/la_cite.jpg": "/static/media/la_cite.e9f2bdff9bbbf1d323c4.jpg",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
+    "static/media/UberEatsLogo.png": "/static/media/UberEatsLogo.685ffe5615e439e25633.png",
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
     "static/media/walksafe.png": "/static/media/walksafe.7a229a93f28a2c56dee8.png",
     "static/media/sede.png": "/static/media/sede.65ce13ce85ad3b185b3d.png",
@@ -34,10 +35,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
-    "main.3431155b.js.map": "/static/js/main.3431155b.js.map"
+    "main.26bf932d.js.map": "/static/js/main.26bf932d.js.map"
   },
   "entrypoints": [
     "static/css/main.c633666d.css",
-    "static/js/main.3431155b.js"
+    "static/js/main.26bf932d.js"
   ]
 }
