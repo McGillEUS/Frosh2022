@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.c633666d.css",
-    "main.js": "/static/js/main.0395f8c8.js",
+    "main.js": "/static/js/main.aecdac22.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.c8fa33fa96188eff3759.png",
+    "static/media/BarflyLogo.png": "/static/media/BarflyLogo.2ab3d1cb040f876c5dc6.png",
     "static/media/schedule_2024.jpg": "/static/media/schedule_2024.3d572827fc407ccc238a.jpg",
     "static/media/frosh_2025_logo_light.png": "/static/media/frosh_2025_logo_light.e1f1918b527591717c65.png",
     "static/media/Malak.png": "/static/media/Malak.dc7cfa677e8ae038414b.png",
@@ -24,6 +25,8 @@
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
     "static/media/walksafe.png": "/static/media/walksafe.7a229a93f28a2c56dee8.png",
     "static/media/sede.png": "/static/media/sede.65ce13ce85ad3b185b3d.png",
+    "static/media/FrostbiteLogo.jpeg": "/static/media/FrostbiteLogo.04e40fc0f2a4abf8b4e0.jpeg",
+    "static/media/McgillPizzaLogo.jpeg": "/static/media/McgillPizzaLogo.529b275cc81d747f8c86.jpeg",
     "static/media/eus-mhc.png": "/static/media/eus-mhc.8c4379e1158979cb731f.png",
     "static/media/peer-support.png": "/static/media/peer-support.ec61cfa4997033f90dfb.png",
     "static/media/student-wellness-hub.png": "/static/media/student-wellness-hub.ab788ce893404d2b623b.png",
@@ -35,10 +38,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
-    "main.0395f8c8.js.map": "/static/js/main.0395f8c8.js.map"
+    "main.aecdac22.js.map": "/static/js/main.aecdac22.js.map"
   },
   "entrypoints": [
     "static/css/main.c633666d.css",
-    "static/js/main.0395f8c8.js"
+    "static/js/main.aecdac22.js"
   ]
 }
