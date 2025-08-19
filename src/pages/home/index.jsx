@@ -10,6 +10,7 @@ import Gerts from "../../images/sponsor/Gerts.PNG";
 import LegalClinic from "../../images/sponsor/legal.png";
 import Videographer from "../../images/sponsor/videographer.png";
 import Cafe from "../../images/sponsor/cafecampus.png";
+import UberEats from "../../images/sponsor/UberEatsLogo.png";
 import RBC from "../../images/sponsor/RBC.png";
 import LaCite from "../../images/sponsor/la_cite.jpg";
 import Malak from "../../images/sponsor/Malak.png";
