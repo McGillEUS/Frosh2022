@@ -1,15 +1,14 @@
 import React from "react";
 import { Card, CardMedia, Typography } from "@mui/material";
-import ScheduleImage from "../../images/schedule_2024.jpg";
+import ScheduleImage from "../../images/schedule_2025.png";
 
 export default function Schedule() {
   return (
     <div style={{ marginTop: "10px", textAlign: "center" }}>
-      <Typography variant="h1">Schedule 2024</Typography>
+      <Typography variant="h1">Schedule 2025</Typography>
 
       {<Typography variant="h6" style={{ marginTop: "20px" }}>
-        The 2025 schedule will be released soon. Stay tuned!
-        Here is a previous year's schedule as an example of the events that will happen.
+        See the 2025 Frosh Schedule below! For more detailed event information, stay tuned for the handbook released a few days before!
       </Typography>
       }
       <Card
