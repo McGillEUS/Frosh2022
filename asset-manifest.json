@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c633666d.css",
-    "main.js": "/static/js/main.4121cb3a.js",
+    "main.js": "/static/js/main.7a761cb5.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/header.png": "/static/media/header.c8fa33fa96188eff3759.png",
+    "static/media/schedule_2025.png": "/static/media/schedule_2025.8c4593fb241682282dc1.png",
     "static/media/BarflyLogo.png": "/static/media/BarflyLogo.2ab3d1cb040f876c5dc6.png",
-    "static/media/schedule_2024.jpg": "/static/media/schedule_2024.3d572827fc407ccc238a.jpg",
     "static/media/frosh_2025_logo_light.png": "/static/media/frosh_2025_logo_light.e1f1918b527591717c65.png",
     "static/media/Malak.png": "/static/media/Malak.dc7cfa677e8ae038414b.png",
     "static/media/cafecampus.png": "/static/media/cafecampus.ac2049029fbc27338041.png",
@@ -38,10 +38,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
-    "main.4121cb3a.js.map": "/static/js/main.4121cb3a.js.map"
+    "main.7a761cb5.js.map": "/static/js/main.7a761cb5.js.map"
   },
   "entrypoints": [
     "static/css/main.c633666d.css",
-    "static/js/main.4121cb3a.js"
+    "static/js/main.7a761cb5.js"
   ]
 }
