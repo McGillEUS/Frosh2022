@@ -3,13 +3,13 @@ export const FAQQuestions = [
     question: "What is Frosh?",
     category: "general",
     answer:
-      "McGill Engineering Frosh 2025 is a four-day event for new undergraduate Engineering students at McGill. During Frosh, new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
+      "McGill Engineering Frosh 2026 is a four-day event for new undergraduate Engineering students at McGill. During Frosh, new students get the chance to meet other new students, connect with upper year student-leaders, and get introduced to the McGill Engineering community.",
   },
   {
     question: "When is Frosh?",
     category: "general",
     answer:
-      "Frosh 2025 will take place from August 29th - September 1st. Classes will begin on August 27th but froshies will not be missing any school as a result of Frosh.",
+      "Frosh 2026 will take place from August 27th - 30th, 2026.",
   },
   {
     question: "What happens during frosh?",
@@ -63,7 +63,7 @@ export const FAQQuestions = [
     question: "Who are Frosh Coordinators?",
     category: "frosh",
     answer:
-      "We are a group of 12 upper-year engineering students who spend their summer organizing the entirety of Frosh. We publicize Frosh to incoming students, find sponsorship,  come up with fun events, and hire Frosh Leaders and O-Staff.",
+      "We are a group of 14 upper-year engineering students who spend their summer organizing the entirety of Frosh. We publicize Frosh to incoming students, find sponsorship,  come up with fun events, and hire Frosh Leaders and O-Staff.",
   },
   {
     question: "Who are Leaders and O-Staff?",
@@ -80,7 +80,7 @@ export const FAQQuestions = [
     question: "Who can participate in Frosh?",
     category: "general",
     answer:
-      "Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in Engineering or Architecture. Frosh welcomes students of all ages, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh.",
+      "Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in Engineering or Architecture, or whose first semester was the Winter 2025 academic semester. Frosh welcomes froshies aged 23 and under, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh.",
   },
   {
     question: "I am not in Engineering, can I sign up for Engineering Frosh?",
@@ -106,6 +106,6 @@ export const FAQQuestions = [
       "What if the price of Frosh is outside of my budget?",
     category: "registration",
     answer:
-      "If you require any financial assistance to participate in Frosh, we have bursaries available! To be eligible for a bursary, you must be able to pay for your ticket before applying. If this poses a significant barrier, please email Andrew at oweek.inclusivity@mcgilleus.ca. The bursary can be found here https://forms.office.com/r/mctZjE7srZ or in the Registration tab linked above.",
+      "If you require any financial assistance to participate in Frosh, we have bursaries available! To be eligible for a bursary, you must be able to pay for your ticket before applying. If this poses a significant barrier, please email Lucas at oweek.inclusivity@mcgilleus.ca. The bursary can be found here https://forms.office.com/r/mctZjE7srZ or in the Registration tab linked above.",
   },
 ];
