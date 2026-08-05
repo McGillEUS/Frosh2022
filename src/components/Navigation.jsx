@@ -17,8 +17,8 @@ import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import ExploreIcon from "@mui/icons-material/TravelExplore";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-import LightFroshIcon from "../images/frosh_2025_logo_light.png";
-import DarkFroshIcon from "../images/frosh_2025_logo_dark.png";
+import LightFroshIcon from "../images/frosh_2026_logo_light.png";
+import DarkFroshIcon from "../images/frosh_2026_logo_dark.png";
 
 import { useNavigate } from "react-router";
 import {

@@ -48,7 +48,7 @@ export default function Register() {
             variant="contained"
             size="large"
             target="_blank"
-            href="https://involvement.mcgill.ca"
+            href="https://cvent.me/YxLxQq"
           >
             Register Here
           </Button>
@@ -64,7 +64,7 @@ export default function Register() {
             <Button
             variant="contained"
             size="large"
-            href="https://forms.office.com/r/mctZjE7srZ"
+            href="https://forms.cloud.microsoft/r/bzrBDzA6bP"
             target="_blank"
           >
             Bursary Form
