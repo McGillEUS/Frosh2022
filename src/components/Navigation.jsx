@@ -14,6 +14,7 @@ import MessageIcon from "@mui/icons-material/Message";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
+import ExploreIcon from "@mui/icons-material/TravelExplore";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import LightFroshIcon from "../images/frosh_2025_logo_light.png";
@@ -36,6 +37,7 @@ const pages = [
   { name: "Schedule", link: "schedule", icon: <MessageIcon /> },
   { name: "Map", link: "map", icon: <MapIcon /> },
   { name: "Handbook", link: "handbook", icon: <MenuBookIcon /> },
+  { name: "Explore the Board", link: "explore-board", icon: <ExploreIcon /> },
   { name: "Resources", link: "resources", icon: <AccessibilityNewIcon /> },
   { name: "FAQ", link: "faq", icon: <HelpOutlineIcon /> },
   { name: "Register", link: "register", icon: <ArrowCircleRightIcon /> },
