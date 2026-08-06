@@ -34,13 +34,13 @@ export const FAQQuestions = [
     question: "How much does Frosh cost?",
     category: "registration",
     answer:
-      "The price for this year's frosh is $157 including taxes.",
+      "The price for this year's frosh is $157 + taxes.",
   },
   {
     question: "Are Frosh events mandatory?",
     category: "general",
     answer:
-      "Not at all. We encourage froshies to participate in all Frosh events, but if they can’t make it or need to take a break that is absolutely okay. Students are encouraged to tell their Frosh leaders if they won’t be attending a certain event so they know not to wait.",
+      "Not at all! We encourage froshies to participate in all Frosh events, but if they can’t make it, or need to take a break that is absolutely okay. Froshies are encouraged to tell their Frosh leaders if they won’t be attending a certain event so they know not to wait for them.",
   },
   {
     question: "Do I have to register?",

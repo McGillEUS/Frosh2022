@@ -10,7 +10,23 @@ import CommitteeModal from "../../components/froshopoly/CommitteeModal";
 const BoardImage = "/froshopoly.svg";
 
 const boardRegions = [
-  { label: "Property 1", x: 165, y: 1225, width: 500, height: 200 },
+  { label: "EUS Committees", x: 190, y: 1250, width: 240, height: 200 },
+  { label: "EUS Clubs", x: 545, y: 1250, width: 120, height: 200 },
+  { label: "PNU", x: 780, y: 1250, width: 120, height: 200 },
+  { label: "Engineering Chants", x: 900, y: 1250, width: 345, height: 200 },
+  { label: "G-Store", x: 0, y: 1130, width: 190, height: 120 },
+  { label: "Student Maker Spaces", x: 0, y: 1010, width: 190, height: 120 },
+  { label: "Services", x: 0, y: 780, width: 190, height: 230 },
+  { label: "First Year Councils", x: 0, y: 540, width: 190, height: 120 },
+  { label: "Junior Council", x: 0, y: 305, width: 190, height: 120 },
+  { label: "Departmental Societies", x: 0, y: 190, width: 190, height: 115 },
+  { label: "Design Teams", x: 190, y: 0, width: 475, height: 190 },
+  { label: "Events", x: 780, y: 0, width: 238, height: 190 },
+  { label: "Comms", x: 1018, y: 0, width: 115, height: 190 },
+  { label: "E-Week", x: 1133, y: 0, width: 115, height: 190 },
+  { label: "EUS Events", x: 1248, y: 190, width: 190, height: 472 },
+  { label: "OAP", x: 1248, y: 898, width: 190, height: 118 },
+  { label: "Blues Pub", x: 1248, y: 1134, width: 190, height: 116 },
 ];
 
 export default function ExploreBoard() {
