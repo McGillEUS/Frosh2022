@@ -5,7 +5,10 @@ import {
   DialogContent,
   Typography,
 } from "@mui/material";
+import ClubsModal from "../../components/froshopoly/ClubsModal";
 import CommitteeModal from "../../components/froshopoly/CommitteeModal";
+import EngineeringChants from "../../components/froshopoly/EngineeringChants";
+import ServicesModal from "../../components/froshopoly/ServicesModal";
 
 const BoardImage = "/froshopoly.svg";
 
@@ -31,6 +34,28 @@ const boardRegions = [
 
 export default function ExploreBoard() {
   const [open, setOpen] = React.useState(false);
+  const [selectedRegion, setSelectedRegion] = React.useState(null);
+
+  const handleRegionClick = (regionLabel) => {
+    setSelectedRegion(regionLabel);
+    setOpen(true);
+  };
+
+  const renderModalContent = () => {
+    if (selectedRegion === "Engineering Chants") {
+      return <EngineeringChants />;
+    }
+
+    if (selectedRegion === "EUS Clubs") {
+      return <ClubsModal />;
+    }
+
+    if (selectedRegion === "G-Store" || selectedRegion === "Services") {
+      return <ServicesModal />;
+    }
+
+    return <CommitteeModal />;
+  };
 
   return (
     <Box
@@ -89,11 +114,11 @@ export default function ExploreBoard() {
               tabIndex={0}
               aria-label={region.label}
               style={{ cursor: "pointer" }}
-              onClick={() => setOpen(true)}
+              onClick={() => handleRegionClick(region.label)}
               onKeyDown={(event) => {
                 if (event.key === "Enter" || event.key === " ") {
                   event.preventDefault();
-                  setOpen(true);
+                  handleRegionClick(region.label);
                 }
               }}
             />
@@ -103,7 +128,10 @@ export default function ExploreBoard() {
 
       <Dialog
         open={open}
-        onClose={() => setOpen(false)}
+        onClose={() => {
+          setOpen(false);
+          setSelectedRegion(null);
+        }}
         PaperProps={{
           sx: {
             maxWidth: "none",
@@ -116,7 +144,7 @@ export default function ExploreBoard() {
         }}
       >
         <DialogContent sx={{ p: 0, width: "fit-content" }}>
-          <CommitteeModal />
+          {renderModalContent()}
         </DialogContent>
       </Dialog>
     </Box>

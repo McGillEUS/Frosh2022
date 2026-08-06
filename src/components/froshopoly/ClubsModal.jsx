@@ -2,10 +2,22 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 
 const committeeCards = [
-  { label: "EUS Chantbook", href: "https://euswiki.mcgilleus.ca/chants/" },
+  { label: "McGill Biomechanics", href: "https://www.instagram.com/mcgillbiomechanics/" },
+  { label: "Brewing Club", href: "https://www.instagram.com/mcgillbrewingclub/" },
+  { label: "McGill Engineering Raclette Team", href: "https://www.instagram.com/mert_mcgill/" },
+  { label: "Engineers in Action", href: "https://www.instagram.com/mcgill.engineersinaction/" },
+  { label: "GameDev McGill", href: "https://www.instagram.com/gamedevmcgill/" },
+  { label: "McGill Flying Club", href: "https://www.instagram.com/mcgillflyingclub/" },
+  { label: "National Society of Black Engineers", href: "https://www.instagram.com/nsbemcgill/" },
+  { label: "NOBE", href: "https://www.instagram.com/nobe.mcgill/" },
+  { label: "IEEE McGill", href: "https://www.instagram.com/ieeemcgill/" },
+  { label: "POWE", href: "https://www.instagram.com/powemcgill/" },
+  { label: "McGill Product Management Association", href: "https://www.instagram.com/mpma.mcgill/" },
+  { label: "Queer Engineer", href: "https://www.instagram.com/queerengineermcgill/" },
+  { label: "Reboot McGill", href: "https://www.instagram.com/reboot_mcgill/" },
 ];
 
-export default function EngineeringChants() {
+export default function ClubsModal() {
   return (
     <Box
       sx={{
@@ -34,7 +46,7 @@ export default function EngineeringChants() {
       <Box
         sx={{
           width: "95%",
-          backgroundColor: "#965336",
+          backgroundColor: "#aae1fc",
           borderRadius: 1,
           mb: 1.5,
           px: 1,
@@ -51,7 +63,7 @@ export default function EngineeringChants() {
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#ffffff",
+            color: "#000000",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",
@@ -69,33 +81,18 @@ export default function EngineeringChants() {
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#ffffff",
+            color: "#000000",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",
             fontFamily: '"Copperplate Gothic", "Copperplate", "Papyrus", serif',
-            fontSize: "1.75rem",
+            fontSize: "2.5rem",
             fontWeight: 700,
           }}
         >
-          Engineering Chants
+          EUS Clubs
         </Typography>
       </Box>
-
-      <Typography
-        sx={{
-          width: "100%",
-          textAlign: "center",
-          color: "#1f1f1f",
-          fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif',
-          fontSize: "1.25rem",
-          lineHeight: 1.4,
-          mb: 0.75,
-          mt: 0.75,
-        }}
-      >
-        Chants are an integral part of the Engineering culture at McGill! Check out the Chantbook to learn the chants you will hear throughout Frosh and your engineering degree! 
-      </Typography>
       
       <Box
         component="ul"
@@ -107,7 +104,7 @@ export default function EngineeringChants() {
           display: "flex",
           flexDirection: "column",
           gap: 0.5,
-          alignItems: "center",
+          alignItems: "left",
           fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
         }}
       >
@@ -118,11 +115,11 @@ export default function EngineeringChants() {
             sx={{
               fontSize: "1.25rem",
               color: "#1f1f1f",
-              textAlign: "center",
+              textAlign: "left",
               lineHeight: 1.25,
               position: "relative",
               pl: 1.5,
-              fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
+              fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
             }}
           >
             <Typography
@@ -135,8 +132,8 @@ export default function EngineeringChants() {
                 textDecoration: "underline",
                 cursor: "pointer",
                 display: "block",
-                fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
-                fontSize: "1.25rem",
+                fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+                fontSize: "1rem",
                 fontWeight: 100,
                 fontStyle: "normal",
               }}
