@@ -22,7 +22,7 @@ export const FAQQuestions = [
     question: "How do I register?",
     category: "registration",
     answer:
-      "Registration for all Froshes takes place through the same online system, which you can access through the “Registration” page. Registration is open until August 23rd, or until tickets sell out!",
+      "Registration for all Froshes takes place through the same online system, which you can access through the “Registration” page. Registration is open until August 21st, or until tickets sell out!",
   },
   {
     question: "Why should I do Frosh?",
@@ -34,7 +34,7 @@ export const FAQQuestions = [
     question: "How much does Frosh cost?",
     category: "registration",
     answer:
-      "The price for this year's frosh is 165$ including taxes.",
+      "The price for this year's frosh is $157 including taxes.",
   },
   {
     question: "Are Frosh events mandatory?",
@@ -63,7 +63,7 @@ export const FAQQuestions = [
     question: "Who are Frosh Coordinators?",
     category: "frosh",
     answer:
-      "We are a group of 14 upper-year engineering students who spend their summer organizing the entirety of Frosh. We publicize Frosh to incoming students, find sponsorship,  come up with fun events, and hire Frosh Leaders and O-Staff.",
+      "We are a group of 14 upper-year engineering students who spend their summer organizing the entirety of Frosh. We publicize Frosh to incoming students, find sponsorship, come up with fun events, and hire Frosh Leaders and O-Staff.",
   },
   {
     question: "Who are Leaders and O-Staff?",
@@ -80,7 +80,7 @@ export const FAQQuestions = [
     question: "Who can participate in Frosh?",
     category: "general",
     answer:
-      "Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in Engineering or Architecture, or whose first semester was the Winter 2025 academic semester. Frosh welcomes froshies aged 23 and under, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh.",
+      "Engineering Frosh is open to any student entering McGill for their first year of an undergraduate degree in Engineering or Architecture, or whose first semester was the Winter 2026 academic semester. Frosh welcomes froshies aged 23 and under, but you only get one chance - you can’t participate in Frosh in any year after your first one (however, you can apply to be a Leader, O-Staff, or Coordinator!). If you are a transfer or exchange student coming to McGill for your first year in Engineering or Architecture, you are welcome to participate in Frosh.",
   },
   {
     question: "I am not in Engineering, can I sign up for Engineering Frosh?",
@@ -99,13 +99,13 @@ export const FAQQuestions = [
     question: "Where can I learn more about groups and clubs on campus?",
     category: "EUS",
     answer:
-      "There are a whole bunch of clubs and design teams invited to do presentations and introduce themselves at various frosh events. There will also be an involvement fair and a more specific EUS involvement day in the first few weeks of classes.",
+      "You can navigate to the Explore the Board tab to see lists of many different engineering clubs, committees, societies, design teams, and more! There are also a whole bunch of clubs and design teams invited to do presentations and introduce themselves at various frosh events. Additionally, be on the lookout for involvement fairs and a more specific EUS involvement day in the first few weeks of classes.",
   },
   {
     question:
       "What if the price of Frosh is outside of my budget?",
     category: "registration",
     answer:
-      "If you require any financial assistance to participate in Frosh, we have bursaries available! To be eligible for a bursary, you must be able to pay for your ticket before applying. If this poses a significant barrier, please email Lucas at oweek.inclusivity@mcgilleus.ca. The bursary can be found here https://forms.office.com/r/mctZjE7srZ or in the Registration tab linked above.",
+      "If you require any financial assistance to participate in Frosh, we have bursaries available! To be eligible for a bursary, you must be able to pay for your ticket before applying. If this poses a significant barrier, please email Lucas at oweek.inclusivity@mcgilleus.ca. The bursary can be found in the Registration tab linked above.",
   },
 ];
