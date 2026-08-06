@@ -87,11 +87,11 @@ export default function EngineeringChants() {
           width: "100%",
           textAlign: "center",
           color: "#1f1f1f",
-          fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif',
-          fontSize: "1.25rem",
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          fontSize: "1.5rem",
           lineHeight: 1.4,
-          mb: 0.75,
-          mt: 0.75,
+          mb: 1.25,
+          mt: 1.25,
         }}
       >
         Chants are an integral part of the Engineering culture at McGill! Check out the Chantbook to learn the chants you will hear throughout Frosh and your engineering degree! 
@@ -108,7 +108,7 @@ export default function EngineeringChants() {
           flexDirection: "column",
           gap: 0.5,
           alignItems: "center",
-          fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
         }}
       >
         {committeeCards.map((committee) => (
@@ -116,13 +116,13 @@ export default function EngineeringChants() {
             key={committee.label}
             component="li"
             sx={{
-              fontSize: "1.25rem",
+              fontSize: "1.5rem",
               color: "#1f1f1f",
               textAlign: "center",
               lineHeight: 1.25,
               position: "relative",
               pl: 1.5,
-              fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
+              fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
             }}
           >
             <Typography
@@ -135,8 +135,8 @@ export default function EngineeringChants() {
                 textDecoration: "underline",
                 cursor: "pointer",
                 display: "block",
-                fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
-                fontSize: "1.25rem",
+                fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+                fontSize: "1.5rem",
                 fontWeight: 100,
                 fontStyle: "normal",
               }}

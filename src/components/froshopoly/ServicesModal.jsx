@@ -140,7 +140,7 @@ export default function ServicesModal() {
                 cursor: "pointer",
                 display: "block",
                 fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
-                fontSize: "1.15rem",
+                fontSize: "1.25rem",
                 fontWeight: 100,
                 fontStyle: "normal",
               }}
@@ -151,7 +151,7 @@ export default function ServicesModal() {
               sx={{
                 color: "#4b4b4b",
                 fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
-                fontSize: "0.85rem",
+                fontSize: "1rem",
                 mt: 0.25,
               }}
             >

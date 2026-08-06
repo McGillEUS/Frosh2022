@@ -105,7 +105,7 @@ export default function CommitteeModal() {
           flexDirection: "column",
           gap: 0.5,
           alignItems: "left",
-          fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
         }}
       >
         {committeeCards.map((committee) => (
@@ -119,7 +119,7 @@ export default function CommitteeModal() {
               lineHeight: 1.25,
               position: "relative",
               pl: 1.5,
-              fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
+              fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
             }}
           >
             <Typography
@@ -132,7 +132,7 @@ export default function CommitteeModal() {
                 textDecoration: "underline",
                 cursor: "pointer",
                 display: "block",
-                fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
+                fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
                 fontSize: "1rem",
                 fontWeight: 100,
                 fontStyle: "normal",

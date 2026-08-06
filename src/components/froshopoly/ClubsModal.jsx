@@ -105,7 +105,7 @@ export default function ClubsModal() {
           flexDirection: "column",
           gap: 0.5,
           alignItems: "left",
-          fontFamily: '"Kabel", "Kabel ExtraBold", Arial, sans-serif !important',
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
         }}
       >
         {committeeCards.map((committee) => (
