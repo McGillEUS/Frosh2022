@@ -5,7 +5,7 @@ import { RESOURCES } from "../../constants/resources";
 export default function Resources() {
   return (
     <div style={{ padding: "10px" }}>
-      <Typography variant="h1"> Resources</Typography>
+      <Typography variant="h1" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}> Resources</Typography>
 
       <div className="hide-small">
         <Grid container spacing={5}>

@@ -4,14 +4,14 @@ const dark = {
   background: "#043b66",
   textColor: "#eee",
   primary: "rgb(238,112,2)", //button color
-  secondary: "rgb(26,2,44)", //top bar color and links color
+  secondary: "#0072bc", //top bar color and links color
   card: "#111",
 };
 const light = {
-  background: "#c6d7ff",
+  background: "#d0f0ff",
   textColor: "#000",
   primary: "rgb(238,112,2)", 
-  secondary: "rgb(255,150,176)",
+  secondary: "#d83b96",
   card: "#fff",
 };
 
@@ -21,30 +21,39 @@ export const getTheme = (mode) => ({
   background: mode === "dark" ? dark.background : light.background,
   // ...(mode === "light" ? lightTheme : formattedDark),
   typography: {
+    fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
     p: {
       color: mode === "dark" ? dark.textColor : light.textColor,
       fontSize: "1.2rem",
+      fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+      fontWeight: 400,
     },
     h3: {
       color: mode === "dark" ? dark.textColor : light.textColor,
       textAlign: "center",
       fontSize: "2rem",
+      fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
+      fontWeight: 800,
     },
     h2: {
       color: mode === "dark" ? dark.textColor : light.textColor,
       textAlign: "center",
-      fontWeight: "400",
+      fontWeight: 800,
       fontSize: "3rem",
+      fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
     },
     h1: {
       color: mode === "dark" ? dark.textColor : light.textColor,
       textAlign: "center",
-      fontWeight: "500",
+      fontWeight: 800,
       fontSize: "4rem",
+      fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
     },
     h6: {
       color: mode === "dark" ? dark.textColor : light.textColor,
       textAlign: "center",
+      fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
+      fontWeight: 800,
     },
   },
   palette: {
@@ -68,6 +77,13 @@ export const getTheme = (mode) => ({
       styleOverrides: {
         root: {
           color: mode === "light" ? "black" : "white",
+        },
+      },
+    },
+    MuiTypography: {
+      styleOverrides: {
+        root: {
+          color: mode === "dark" ? dark.textColor : light.textColor,
         },
       },
     },

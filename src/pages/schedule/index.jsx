@@ -1,38 +1,15 @@
 import React from "react";
-import { Card, CardMedia, Typography } from "@mui/material";
-import ScheduleImage from "../../images/schedule_2025.png";
+import { Typography } from "@mui/material";
 
 export default function Schedule() {
   return (
     <div style={{ marginTop: "10px", textAlign: "center" }}>
-      <Typography variant="h1">Schedule 2025</Typography>
+      <Typography variant="h1" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Schedule 2025</Typography>
 
       {<Typography variant="h6" style={{ marginTop: "20px" }}>
-        See the 2025 Frosh Schedule below! For more detailed event information, stay tuned for the handbook released a few days before!
+        The 2026 Frosh Schedule is currently being finalized and will be released in the coming weeks. Please check back here for updates!
       </Typography>
       }
-      <Card
-        style={{
-          width: "fit-content",
-          marginTop: "20px",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-      >
-        <CardMedia
-          component="img"
-          style={{
-            marginLeft: "auto",
-            marginRight: "auto",
-            maxHeight: "85vh",
-            objectFit: "contain",
-            borderRadius: "5px",
-          }}
-          image={ScheduleImage}
-          alt="No img"
-        />
-      </Card>
-      
     </div>
   );
 }

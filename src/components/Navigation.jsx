@@ -77,14 +77,14 @@ const ResponsiveAppBar = () => {
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
-                fontFamily: "monospace",
+                fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
                 fontWeight: 700,
-                letterSpacing: ".3rem",
+                letterSpacing: "0.02rem",
                 color: theme.palette.text.primary,
                 textDecoration: "none",
               }}
             >
-              McGill Engineering Frosh 2026
+              MCGILL ENGINEERING FROSH 2026
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -116,7 +116,7 @@ const ResponsiveAppBar = () => {
                 mr: 2,
                 display: { xs: "flex", md: "none" },
                 flexGrow: 1,
-                fontFamily: "monospace",
+                fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
                 color: theme.palette.text.primary,

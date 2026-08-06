@@ -1,6 +1,6 @@
 import React from "react";
 import handbook from "../../images/handbook_2024.pdf";
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 export default function Handbook() {
   return (
     <div
@@ -11,6 +11,10 @@ export default function Handbook() {
       }}
     >
       <br />
+      <Typography variant="h1" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Handbook</Typography>
+      <Typography variant="body1" style={{ marginTop: "10px", marginBottom: "20px", textAlign: "center" }}>
+        The 2026 handbook will be released a few days before Frosh. Please see the 2024 handbook below for a general idea of what to expect!
+      </Typography>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
       <Button
         variant="contained"

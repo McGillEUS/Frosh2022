@@ -5,7 +5,7 @@ import { HOW_TO_REGISTER, STEPS_TO_TAKE } from "../../constants/registration";
 export default function Register() {
   return (
     <div style={{ marginTop: "10px" }}>
-      <Typography variant="h1">Registration</Typography>
+      <Typography variant="h1" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Registration</Typography>
       <div
         style={{
           padding: "10px 20px 50px 20px",

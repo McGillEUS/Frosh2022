@@ -118,7 +118,7 @@ export default function Home() {
         }}
       >
         <div style={{ padding: "10px 50px 50px 50px" }}>
-          <Typography variant="h2">What is Frosh?</Typography>
+          <Typography variant="h2" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>What is Frosh?</Typography>
           <Typography variant="p">{WHAT_IS_FROSH}</Typography>
         </div>
         <div
@@ -130,9 +130,9 @@ export default function Home() {
             height: "fit-content",
           }}
         >
-          <Typography variant="h2">Frosh Trailer 2025</Typography>
+          <Typography variant="h2" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Frosh Trailer 2025</Typography>
           <iframe
-            title="Frosh Trailer 2025"
+            title="Frosh Trailer 2026"
             width="100%"
             height="400"
             src="https://www.youtube.com/embed/aJa9L87LvJw"
@@ -143,7 +143,7 @@ export default function Home() {
           />
         </div>
         <div style={{ marginTop: "50px" }}>
-          <Typography variant="h2">Sponsors</Typography>
+          <Typography variant="h2" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Sponsors</Typography>
           {showAllSponsors ? (
             <div
               style={{

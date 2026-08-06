@@ -1,23 +1,20 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 
-const SportsLink = "https://www.mcgilleus.ca/sports";
-
 const committeeCards = [
-  { label: "Engineering Adventure Committee", href: SportsLink },
-  { label: "Engaged Learning in Engineering", href: SportsLink },
-  { label: "Engineering Games", href: SportsLink },
-  { label: "Graduation Committee", href: SportsLink },
-  { label: "EUS Equity", href: SportsLink },
-  { label: "Elections EUS", href: SportsLink },
-  { label: "EUS Sports", href: SportsLink },
-  { label: "Global Engineering Committee", href: SportsLink },
-  { label: "Indigenous Inclusion Committee", href: SportsLink },
-  { label: "IT Committee", href: SportsLink },
-  { label: "Engineering Socials Committee", href: SportsLink },
-  { label: "Mental Wellness Committee", href: SportsLink },
-  { label: "Plumber’s Band Room", href: SportsLink },
-  { label: "SEAM", href: SportsLink },
+  { label: "Engineering Adventure Committee", href: "https://www.instagram.com/eac_mcgill/" },
+  { label: "Engaged Learning in Engineering", href: "https://www.instagram.com/eline.mcgill/" },
+  { label: "Engineering Games", href: "https://www.instagram.com/mcgill.enggames/" },
+  { label: "Graduation Committee", href: "https://www.instagram.com/eusgradcomm/" },
+  { label: "EUS Equity", href: "https://www.instagram.com/eus_equity/" },
+  { label: "Elections EUS", href: "https://www.instagram.com/electionseus/" },
+  { label: "EUS Sports", href: "https://www.instagram.com/eus_sports/" },
+  { label: "Indigenous Inclusion Committee", href: "https://www.instagram.com/indigenousinclusioncommittee/"},
+  { label: "IT Committee", href: "https://euswiki.mcgilleus.ca/committees/" },
+  { label: "Engineering Socials Committee", href: "https://www.instagram.com/esc_mcgill/" },
+  { label: "Mental Wellness Committee", href: "https://www.instagram.com/eusmentalwellness/" },
+  { label: "Plumber’s Band Room", href: "https://linktr.ee/plumbersbandroom" },
+  { label: "SEAM", href: "https://www.instagram.com/seam_mcgill/" },
 ];
 
 export default function CommitteeModal() {

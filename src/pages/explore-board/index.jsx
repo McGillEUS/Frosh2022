@@ -28,7 +28,29 @@ export default function ExploreBoard() {
         py: 4,
       }}
     >
-      <Typography variant="h4">Explore the Board</Typography>
+      <Typography
+        variant="h1"
+        style={{
+          fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
+          fontWeight: 800,
+          fontSize: "4rem",
+          textAlign: "center",
+          marginBottom: "0.5rem",
+        }}
+      >
+        Explore the Board
+      </Typography>
+      <Typography
+        variant="body1"
+        style={{
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          textAlign: "center",
+          maxWidth: "900px",
+          lineHeight: 1.6,
+        }}
+      >
+        Click on the different properties to learn more about various clubs, committees, departmental societies, and events within the Engineering Undergraduate Society (EUS)
+      </Typography>
       <Box
         sx={{
           width: "min(100%, 1100px)",
