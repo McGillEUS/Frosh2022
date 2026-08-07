@@ -75,7 +75,7 @@ export default function Footer() {
         }}
       >
         &copy; Engineering Undergraduate Society of McGill University 2026 <br />
-        Made by Ryan Reszetnik
+        Made by Audrey Cheng
       </Typography>
     </div>
   );

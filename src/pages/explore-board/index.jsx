@@ -9,6 +9,11 @@ import ClubsModal from "../../components/froshopoly/ClubsModal";
 import CommitteeModal from "../../components/froshopoly/CommitteeModal";
 import EngineeringChants from "../../components/froshopoly/EngineeringChants";
 import ServicesModal from "../../components/froshopoly/ServicesModal";
+import SpacesModal from "../../components/froshopoly/SpacesModal";
+import PNUModal from "../../components/froshopoly/PNUModal";
+import FYCModal from "../../components/froshopoly/FYCModal";
+import JuniorCouncilModal from "../../components/froshopoly/JCModal";
+import DepartmentsModal from "../../components/froshopoly/DepartmentsModal";
 
 const BoardImage = "/froshopoly.svg";
 
@@ -52,6 +57,26 @@ export default function ExploreBoard() {
 
     if (selectedRegion === "G-Store" || selectedRegion === "Services") {
       return <ServicesModal />;
+    }
+
+    if (selectedRegion === "Student Maker Spaces") {
+      return <SpacesModal />;
+    }
+
+    if (selectedRegion === "PNU") {
+      return <PNUModal />;
+    }
+
+    if (selectedRegion === "First Year Councils") {
+      return <FYCModal />;
+    }
+
+    if (selectedRegion === "Junior Council") {
+      return <JuniorCouncilModal />;
+    }
+
+    if (selectedRegion === "Departmental Societies") {
+      return <DepartmentsModal />;
     }
 
     return <CommitteeModal />;
