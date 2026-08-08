@@ -102,14 +102,13 @@ export default function ExploreBoard() {
       <Typography
         variant="h1"
         style={{
-          fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
-          fontWeight: 800,
-          fontSize: "4rem",
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          fontWeight: 600,
+          fontSize: "5rem",
           textAlign: "center",
-          marginBottom: "0.5rem",
         }}
       >
-        Explore the Board
+        EXPLORE THE BOARD
       </Typography>
       <Typography
         variant="body1"
@@ -121,7 +120,7 @@ export default function ExploreBoard() {
           lineHeight: 1.6,
         }}
       >
-        Click on the different properties to learn more about various clubs, committees, departmental societies, and events within the Engineering Undergraduate Society (EUS)
+        Click on the different property tiles to learn more about various clubs, committees, departmental societies, and events within the Engineering Undergraduate Society (EUS)!
       </Typography>
       <Box
         sx={{

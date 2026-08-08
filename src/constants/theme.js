@@ -45,7 +45,7 @@ export const getTheme = (mode) => ({
     h1: {
       color: mode === "dark" ? dark.textColor : light.textColor,
       textAlign: "center",
-      fontWeight: 800,
+      fontWeight: 400,
       fontSize: "4rem",
       fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
     },

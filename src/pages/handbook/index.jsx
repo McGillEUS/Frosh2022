@@ -11,7 +11,17 @@ export default function Handbook() {
       }}
     >
       <br />
-      <Typography variant="h1" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Handbook</Typography>
+      <Typography 
+        variant="h1" 
+        style={{
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          fontWeight: 600,
+          fontSize: "5rem",
+          textAlign: "center",
+          marginBottom: "0.5rem", 
+        }}>
+        HANDBOOK
+      </Typography>
       <Typography
         variant="body1"
         style={{

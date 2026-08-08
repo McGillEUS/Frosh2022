@@ -4,7 +4,17 @@ import React from "react";
 export default function Map() {
   return (
     <div style={{ width: "100%", marginTop: "10px" }}>
-      <Typography variant="h1" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Map</Typography>
+      <Typography 
+        variant="h1" 
+        style={{
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          fontWeight: 600,
+          fontSize: "5rem",
+          textAlign: "center",
+          marginBottom: "0.5rem",
+        }}>
+        MAP
+      </Typography>
       <div
         style={{
           marginLeft: "auto",

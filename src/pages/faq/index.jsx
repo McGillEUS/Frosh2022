@@ -59,7 +59,14 @@ export default function FAQ() {
         marginTop: "10px",
       }}
     >
-      <Typography variant="h1" gutterBottom style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>
+      <Typography 
+        variant="h1" 
+        style={{ 
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif", 
+          fontWeight: 600,
+          fontSize: "5rem",
+          textAlign: "center",
+        }}>
         FAQ
       </Typography>
       <TextField
