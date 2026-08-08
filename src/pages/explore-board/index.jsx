@@ -19,6 +19,8 @@ import Events1Modal from "../../components/froshopolyBoard/EventsModal";
 import CommsModal from "../../components/froshopolyBoard/CommsModal";
 import EweekModal from "../../components/froshopolyBoard/EweekModal";
 import Events2Modal from "../../components/froshopolyBoard/EUSEventsModal";
+import OAPModal from "../../components/froshopolyBoard/OAPModal";
+import BluesModal from "../../components/froshopolyBoard/BluesModal";
 
 const BoardImage = "/froshopoly.svg";
 
@@ -107,6 +109,15 @@ export default function ExploreBoard() {
     if (selectedRegion === "EUS Events") {
       return <Events2Modal />;
     }
+
+    if (selectedRegion === "OAP") {
+      return <OAPModal />;
+    }
+
+    if (selectedRegion === "Blues Pub") {
+      return <BluesModal />;
+    }
+
     return null;
   };
 

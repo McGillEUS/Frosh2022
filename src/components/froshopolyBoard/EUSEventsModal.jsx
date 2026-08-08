@@ -136,6 +136,7 @@ export default function Events2Modal() {
                 color: "#4b4b4b",
                 fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
                 fontSize: "1rem",
+                lineHeight: 1.2,
                 mt: 0.25,
               }}
             >

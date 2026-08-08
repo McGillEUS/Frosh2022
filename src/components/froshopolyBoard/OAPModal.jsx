@@ -2,10 +2,11 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 
 const committeeCards = [
-  { label: "EUS Chantbook", href: "https://drive.google.com/file/d/1WBfHJDbczmxdJkdjj1ZYm7gG0i2Ty9QT/edit" },
+  { label: "OAP Instagram", href: "https://www.instagram.com/openairpub/" },
+  { label: "OAP Volunteers Instagram", href: "https://www.instagram.com/openairpub_volunteers/"},
 ];
 
-export default function EngineeringChants() {
+export default function OAPModal() {
   return (
     <Box
       sx={{
@@ -34,7 +35,7 @@ export default function EngineeringChants() {
       <Box
         sx={{
           width: "95%",
-          backgroundColor: "#965336",
+          backgroundColor: "#0072bc",
           borderRadius: 1,
           mb: 1.5,
           px: 1,
@@ -74,29 +75,28 @@ export default function EngineeringChants() {
             textTransform: "uppercase",
             display: "block",
             fontFamily: '"Copperplate Gothic", "Copperplate", "Papyrus", serif',
-            fontSize: "1.75rem",
+            fontSize: "2rem",
             fontWeight: 700,
           }}
         >
-          Engineering Chants
+          Open Air Pub
         </Typography>
       </Box>
-
       <Typography
         sx={{
-          width: "100%",
+          width: "96%",
+          mx: "auto",
           textAlign: "center",
           color: "#1f1f1f",
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
-          fontSize: "1.5rem",
+          fontSize: "1.25rem",
           lineHeight: 1.4,
           mb: 1.25,
           mt: 1.25,
         }}
       >
-        Chants are an integral part of the Engineering culture at McGill! Check out the Chantbook to learn the chants you will hear throughout Frosh and your engineering degree! 
+        The Best Place on Earth!! Twice every year, McGill campus' Lower West Field transforms into OAP: an open air pub, music festival and barbecue. OAP is run entirely by student volunteers, with all profits going back to the McGill Engineering Undergraduate Society (EUS). OAP runs for two weeks in the fall and for a few days at the end of April. We would love to see you there!
       </Typography>
-      
       <Box
         component="ul"
         sx={{
@@ -106,7 +106,7 @@ export default function EngineeringChants() {
           width: "100%",
           display: "flex",
           flexDirection: "column",
-          gap: 0.5,
+          gap: 0.25,
           alignItems: "center",
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
         }}
@@ -116,7 +116,7 @@ export default function EngineeringChants() {
             key={committee.label}
             component="li"
             sx={{
-              fontSize: "1.5rem",
+              fontSize: 19,
               color: "#1f1f1f",
               textAlign: "center",
               lineHeight: 1.25,
@@ -136,7 +136,7 @@ export default function EngineeringChants() {
                 cursor: "pointer",
                 display: "block",
                 fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
-                fontSize: "1.5rem",
+                fontSize: "1.25rem",
                 fontWeight: 100,
                 fontStyle: "normal",
               }}

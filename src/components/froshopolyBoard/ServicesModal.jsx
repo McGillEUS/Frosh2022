@@ -70,7 +70,7 @@ export default function ServicesModal() {
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#000000",
+            color: "#ffffff",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",
@@ -88,7 +88,7 @@ export default function ServicesModal() {
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#000000",
+            color: "#ffffff",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",
