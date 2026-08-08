@@ -39,7 +39,10 @@ export default function Footer() {
       <Typography
         variant="h6"
         style={{
-          fontSize: "20px",
+          fontSize: "24px",
+          fontWeight: 600,
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          letterSpacing: "-0.2px",
           width: "100%",
           textAlign: "center",
         }}
@@ -49,7 +52,10 @@ export default function Footer() {
       <Typography
         variant="h6"
         style={{
-          fontSize: "14px",
+          fontSize: "18px",
+          fontWeight: 600,
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          letterSpacing: "-0.2px",
           width: "100%",
         }}
       >
@@ -58,7 +64,10 @@ export default function Footer() {
       <Typography
         variant="h6"
         style={{
-          fontSize: "14px",
+          fontSize: "18px",
+          fontWeight: 600,
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          letterSpacing: "-0.2px",
           width: "100%",
         }}
       >
@@ -68,7 +77,10 @@ export default function Footer() {
       <Typography
         variant="h6"
         style={{
-          fontSize: "12px",
+          fontSize: "14px",
+          fontWeight: 600,
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          letterSpacing: "-0.2px",
           width: "100%",
           textAlign: "center",
           opacity: 0.7,

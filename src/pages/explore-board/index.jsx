@@ -5,15 +5,16 @@ import {
   DialogContent,
   Typography,
 } from "@mui/material";
-import ClubsModal from "../../components/froshopoly/ClubsModal";
-import CommitteeModal from "../../components/froshopoly/CommitteeModal";
-import EngineeringChants from "../../components/froshopoly/EngineeringChants";
-import ServicesModal from "../../components/froshopoly/ServicesModal";
-import SpacesModal from "../../components/froshopoly/SpacesModal";
-import PNUModal from "../../components/froshopoly/PNUModal";
-import FYCModal from "../../components/froshopoly/FYCModal";
-import JuniorCouncilModal from "../../components/froshopoly/JCModal";
-import DepartmentsModal from "../../components/froshopoly/DepartmentsModal";
+import ClubsModal from "../../components/froshopolyBoard/ClubsModal";
+import CommitteeModal from "../../components/froshopolyBoard/CommitteeModal";
+import EngineeringChants from "../../components/froshopolyBoard/EngineeringChants";
+import ServicesModal from "../../components/froshopolyBoard/ServicesModal";
+import SpacesModal from "../../components/froshopolyBoard/SpacesModal";
+import PNUModal from "../../components/froshopolyBoard/PNUModal";
+import FYCModal from "../../components/froshopolyBoard/FYCModal";
+import JuniorCouncilModal from "../../components/froshopolyBoard/JCModal";
+import DepartmentsModal from "../../components/froshopolyBoard/DepartmentsModal";
+import DesignTeamsModal from "../../components/froshopolyBoard/DesignTeamsModal";
 
 const BoardImage = "/froshopoly.svg";
 
@@ -77,6 +78,10 @@ export default function ExploreBoard() {
 
     if (selectedRegion === "Departmental Societies") {
       return <DepartmentsModal />;
+    }
+    
+    if (selectedRegion === "Design Teams") {
+      return <DesignTeamsModal />;
     }
 
     return <CommitteeModal />;
