@@ -60,7 +60,7 @@ export default function DesignTeamsModal() {
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#ffffff",
+            color: "#000000",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",
@@ -78,7 +78,7 @@ export default function DesignTeamsModal() {
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#ffffff",
+            color: "#000000",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",

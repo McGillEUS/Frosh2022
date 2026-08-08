@@ -2,29 +2,13 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 
 const committeeCards = [
-  {
-    label: "G-Store",
-    href: "https://www.instagram.com/eusgstore/",
-    description: "Your one-stop shop for affordable snacks, drinks, and school supplies (and $1 coffees!)",
-  },
-  {
-    label: "CopiEUS",
-    href: "https://www.instagram.com/copi_eus/",
-    description: "The most affordable, on-campus print service around! From posters to book binding, CopiEUS has you covered!",
-  },
-  {
-    label: "Frostbite Ice Cream",
-    href: "https://www.instagram.com/frostbite_icecream/",
-    description: "Get a much needed sweet treat from our student-run ice cream store!",
-  },
-  {
-    label: "EPTS",
-    href: "https://www.instagram.com/mcgill_epts/",
-    description: "FREE tutoring for U0 and U1 students with daily tutorials and dedicated exam reviews!",
-  },
+  { label: "Plumber’s Photography Union", href: "https://www.instagram.com/eus_ppu/", description: "Looking for event photography, headshots for your council, or simply want to join a community of photo enthusiasts? The PPU has you covered! We run a team of event photographers to capture the magic of McGill Engineering." },
+  { label: "Yearbook Committee", href: "https://www.instagram.com/eus_yearbook/", description: "The Yearbook Committee brings the EUS yearbook to life! Available to all years of engineering, it serves as a memento of our time as engineering students." },
+  { label: "Plumbers’ Student Design", href: "https://www.instagram.com/psd_mcgill/", description: ".PSD is a student-run service that offers innovative (and free!) graphic design solutions for EUS groups." },
+  { label: "The Plumber’s Faucet", href: "https://www.instagram.com/plumbersfaucet/", description: "The Plumber's Faucet is the EUS's humorous and satirical magazine, released two to three times a semester. We publish various articles and encourage you to submit to our magazine! " },
 ];
 
-export default function ServicesModal() {
+export default function CommsModal() {
   return (
     <Box
       sx={{
@@ -42,63 +26,43 @@ export default function ServicesModal() {
     >
       <Box
         sx={{
-          width: "calc(100% - 16px)",
-          height: "calc(100% - 16px)",
+          width: "calc(100% - 25px)",
+          height: "calc(100% - 25px)",
           position: "absolute",
-          inset: 8,
+          inset: 12.5,
           border: "1.5px solid #000000",
           pointerEvents: "none",
         }}
       />
       <Box
         sx={{
-          width: "95%",
-          backgroundColor: "#d83b96",
-          borderRadius: 1,
-          mb: 1.5,
-          px: 1,
-          py: 0.75,
+          width: "90%",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
           mx: "auto",
-          border: "1px solid #000000",
+          mt: 1.5,
+          mb: 1.5,
         }}
       >
+        <Box sx={{ width: "100%", height: "2px", backgroundColor: "#000000", mb: 1 }} />
         <Typography
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#000000",
+            color: "#1f1f1f",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",
-            fontFamily: '"Copperplate Gothic", "Copperplate", "Papyrus", serif',
-            fontSize: "1.25rem",
-            fontWeight: 700,
-            lineHeight: 0.5,
-            mt: 2,
-            mb: 0.05,
-          }}
-        >
-          Froshopoly
-        </Typography>
-        <Typography
-          variant="caption"
-          sx={{
-            textAlign: "center",
-            color: "#000000",
-            letterSpacing: 0.3,
-            textTransform: "uppercase",
-            display: "block",
-            fontFamily: '"Copperplate Gothic", "Copperplate", "Papyrus", serif',
-            fontSize: "2.5rem",
+            fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+            fontSize: "1.55rem",
             fontWeight: 700,
           }}
         >
-          Services
+          Creative Organizations
         </Typography>
+        <Box sx={{ width: "100%", height: "2px", backgroundColor: "#000000", mt: 1 }} />
       </Box>
       
       <Box
@@ -114,21 +78,21 @@ export default function ServicesModal() {
           alignItems: "left",
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
         }}
-      >
+    >
         {committeeCards.map((committee) => (
           <Box
             key={committee.label}
             component="li"
             sx={{
-              fontSize: "1.25rem",
+              fontSize: "1rem",
               color: "#1f1f1f",
               textAlign: "left",
               lineHeight: 1.25,
               position: "relative",
-              pl: 1.5,
+              pl: 1.25,
               fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
             }}
-          >
+        >
             <Typography
               component="a"
               href={committee.href}
@@ -140,7 +104,7 @@ export default function ServicesModal() {
                 cursor: "pointer",
                 display: "block",
                 fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
-                fontSize: "1.25rem",
+                fontSize: "1rem",
                 fontWeight: 100,
                 fontStyle: "normal",
               }}
@@ -152,7 +116,7 @@ export default function ServicesModal() {
                 color: "#4b4b4b",
                 fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
                 fontSize: "1rem",
-                mt: 0.25,
+                mt: 0.15,
               }}
             >
               {committee.description}

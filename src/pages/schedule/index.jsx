@@ -22,6 +22,7 @@ export default function Schedule() {
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
           textAlign: "center",
           maxWidth: "900px",
+          margin: "0 auto",
           fontSize: "1.25rem",
           lineHeight: 1.6,
         }}>

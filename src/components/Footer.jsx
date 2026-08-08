@@ -40,11 +40,13 @@ export default function Footer() {
         variant="h6"
         style={{
           fontSize: "24px",
-          fontWeight: 600,
+          fontWeight: 500,
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
           letterSpacing: "-0.2px",
           width: "100%",
           textAlign: "center",
+          lineHeight: 1.2,
+          margin: 0,
         }}
       >
         McGill Engineering Frosh 2026
@@ -53,10 +55,12 @@ export default function Footer() {
         variant="h6"
         style={{
           fontSize: "18px",
-          fontWeight: 600,
+          fontWeight: 500,
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
           letterSpacing: "-0.2px",
           width: "100%",
+          lineHeight: 1.2,
+          margin: 0,
         }}
       >
         3480 Rue University #7, Montreal, Quebec H3A 0E9
@@ -65,20 +69,37 @@ export default function Footer() {
         variant="h6"
         style={{
           fontSize: "18px",
-          fontWeight: 600,
+          fontWeight: 500,
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
           letterSpacing: "-0.2px",
           width: "100%",
+          lineHeight: 1.2,
+          margin: 0,
         }}
       >
       oweek.communications@mcgilleus.ca
       </Typography>
       <hr style={{ width: "50%", opacity: 0.2 }} />
       <Typography
+        variant="body1"
+        style={{
+          fontSize: "14px",
+          fontWeight: 400,
+          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+          lineHeight: 1.4,
+          width: "min(90%, 720px)",
+          margin: "0 auto 12px",
+          textAlign: "center",
+          opacity: 0.7,
+        }}
+      >
+        McGill Engineering Frosh recognizes that Frosh takes place on unceded, unsurrendered and ancestral Indigenous territory. This land, known as Tiohtià:ke (also called Montreal), has long served as a site of meeting and exchange for the Kanien’kehá:ka/Mohawk Nation, belonging to the Haudenosaunee Confederacy as well as other Indigenous nations, notably the Anishinaabeg nations. 
+      </Typography>
+      <Typography
         variant="h6"
         style={{
           fontSize: "14px",
-          fontWeight: 600,
+          fontWeight: 400,
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
           letterSpacing: "-0.2px",
           width: "100%",
@@ -87,7 +108,7 @@ export default function Footer() {
         }}
       >
         &copy; Engineering Undergraduate Society of McGill University 2026 <br />
-        Made by Audrey Cheng
+        Made by Ryan Reszetnik, Updated by Audrey Cheng
       </Typography>
     </div>
   );

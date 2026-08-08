@@ -2,18 +2,12 @@ import React from "react";
 import { Box, Typography } from "@mui/material";
 
 const committeeCards = [
-  { label: "Architecture - ASA", href: "https://www.instagram.com/mcgill.asa/" },
-  { label: "Bioengineering - BUSS", href: "https://www.instagram.com/buss.mcgill/" },
-  { label: "Bioresource Engineering - BESS", href: "https://www.instagram.com/bessmcgill/" },
-  { label: "Chemical Engineering - ChESS", href: "https://www.instagram.com/chessmcgill/" },
-  { label: "Civil Engineering - CEUS", href: "https://www.instagram.com/ceusmcgill/" },
-  { label: "Electrical, Computer, Software Engineering - ECSESS", href: "https://www.instagram.com/mcgill_ecsess/" },
-  { label: "Materials Engineering - MEUS", href: "https://www.instagram.com/meus_herd/" },
-  { label: "Mechanical Engineering - MAME", href: "https://www.instagram.com/mame_mcgill/" },
-  { label: "Mining Engineering - CMEUS", href: "https://www.instagram.com/mcgill.mining/" },
+  { label: "Departmental Banquets", href: "https://euswiki.mcgilleus.ca/banquet/", description: "A fun-filled evening near the end of each semester organized by your departmental student society!" },
+  { label: "MERTW", href: "https://www.instagram.com/mertw_mcgill/", description: "McGill Engineers Rule the World!! This is a super awesome pub crawl that occurs right before reading week each semester!" },
+  { label: "TechFair", href: "https://www.instagram.com/mcgilltechfair/", description: "TechFair is McGill’s largest engineering career fair, organized by and for engineering students. It's an excellent opportunity to network, find job and internship opportunities, and leave a lasting impression on potential future employers." },
 ];
 
-export default function DepartmentsModal() {
+export default function Events1Modal() {
   return (
     <Box
       sx={{
@@ -42,7 +36,7 @@ export default function DepartmentsModal() {
       <Box
         sx={{
           width: "95%",
-          backgroundColor: "#f8941f",
+          backgroundColor: "#fef303",
           borderRadius: 1,
           mb: 1.5,
           px: 1,
@@ -82,28 +76,14 @@ export default function DepartmentsModal() {
             textTransform: "uppercase",
             display: "block",
             fontFamily: '"Copperplate Gothic", "Copperplate", "Papyrus", serif',
-            fontSize: "1.6rem",
+            fontSize: "2rem",
             fontWeight: 700,
           }}
         >
-          Department Societies
+          Semesterly Events
         </Typography>
       </Box>
-      <Typography
-        sx={{
-          width: "96%",
-          mx: "auto",
-          textAlign: "center",
-          color: "#1f1f1f",
-          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
-          fontSize: "1.15rem",
-          lineHeight: 1.4,
-          mb: 1.25,
-          mt: 1.25,
-        }}
-      >
-        Follow your departmental student society on Instagram to stay up to date with events, workshops, and social activities related to your program!
-      </Typography>
+      
       <Box
         component="ul"
         sx={{
@@ -113,8 +93,8 @@ export default function DepartmentsModal() {
           width: "100%",
           display: "flex",
           flexDirection: "column",
-          gap: 0.25,
-          alignItems: "center",
+          gap: 0.5,
+          alignItems: "left",
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
         }}
       >
@@ -123,10 +103,10 @@ export default function DepartmentsModal() {
             key={committee.label}
             component="li"
             sx={{
-              fontSize: 19,
-              color: "#1f1f1f",
-              textAlign: "center",
-              lineHeight: 1.15,
+              fontSize: "1.25rem",
+              color: "#000000",
+              textAlign: "left",
+              lineHeight: 1.5,
               position: "relative",
               pl: 1.5,
               fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
@@ -143,12 +123,22 @@ export default function DepartmentsModal() {
                 cursor: "pointer",
                 display: "block",
                 fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
-                fontSize: "1.15rem",
-                fontWeight: 100,
+                fontSize: "1.25rem",
+                fontWeight: 200,
                 fontStyle: "normal",
               }}
             >
               {committee.label}
+            </Typography>
+            <Typography
+              sx={{
+                color: "#4b4b4b",
+                fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+                fontSize: "1.15rem",
+                mt: 0.25,
+              }}
+            >
+              {committee.description}
             </Typography>
           </Box>
         ))}

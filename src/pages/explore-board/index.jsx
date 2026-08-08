@@ -15,6 +15,10 @@ import FYCModal from "../../components/froshopolyBoard/FYCModal";
 import JuniorCouncilModal from "../../components/froshopolyBoard/JCModal";
 import DepartmentsModal from "../../components/froshopolyBoard/DepartmentsModal";
 import DesignTeamsModal from "../../components/froshopolyBoard/DesignTeamsModal";
+import Events1Modal from "../../components/froshopolyBoard/EventsModal";
+import CommsModal from "../../components/froshopolyBoard/CommsModal";
+import EweekModal from "../../components/froshopolyBoard/EweekModal";
+import Events2Modal from "../../components/froshopolyBoard/EUSEventsModal";
 
 const BoardImage = "/froshopoly.svg";
 
@@ -84,7 +88,26 @@ export default function ExploreBoard() {
       return <DesignTeamsModal />;
     }
 
-    return <CommitteeModal />;
+    if (selectedRegion === "Events") {
+      return <Events1Modal />;
+    }
+
+    if (selectedRegion === "Comms") {
+      return <CommsModal />;
+    }
+
+    if (selectedRegion === "EUS Committees") {
+      return <CommitteeModal />;
+    }
+
+    if (selectedRegion === "E-Week") {
+      return <EweekModal />;
+    }
+
+    if (selectedRegion === "EUS Events") {
+      return <Events2Modal />;
+    }
+    return null;
   };
 
   return (

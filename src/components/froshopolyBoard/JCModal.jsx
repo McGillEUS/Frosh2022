@@ -51,7 +51,7 @@ export default function JuniorCouncilModal() {
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#2b2b2b",
+            color: "#000000",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",
@@ -69,7 +69,7 @@ export default function JuniorCouncilModal() {
           variant="caption"
           sx={{
             textAlign: "center",
-            color: "#2b2b2b",
+            color: "#000000",
             letterSpacing: 0.3,
             textTransform: "uppercase",
             display: "block",

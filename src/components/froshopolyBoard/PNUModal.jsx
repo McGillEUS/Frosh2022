@@ -99,7 +99,7 @@ export default function PNUModal() {
             component="li"
             sx={{
               fontSize: "1.25rem",
-              color: "#1f1f1f",
+              color: "#000000",
               textAlign: "center",
               lineHeight: 1.25,
               position: "relative",
