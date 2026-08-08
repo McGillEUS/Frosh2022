@@ -112,6 +112,7 @@ export default function ExploreBoard() {
           fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
           textAlign: "center",
           maxWidth: "900px",
+          fontSize: "1.25rem",
           lineHeight: 1.6,
         }}
       >

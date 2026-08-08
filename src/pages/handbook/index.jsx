@@ -12,7 +12,16 @@ export default function Handbook() {
     >
       <br />
       <Typography variant="h1" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Handbook</Typography>
-      <Typography variant="body1" style={{ marginTop: "10px", marginBottom: "20px", textAlign: "center" }}>
+      <Typography
+        variant="body1"
+        style={{
+          marginTop: "10px",
+          marginBottom: "20px",
+          textAlign: "center",
+          fontSize: "1.25rem",
+          lineHeight: 1.6,
+        }}
+      >
         The 2026 handbook will be released a few days before Frosh. Please see the 2024 handbook below for a general idea of what to expect!
       </Typography>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>

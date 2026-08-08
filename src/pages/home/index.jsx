@@ -130,12 +130,12 @@ export default function Home() {
             height: "fit-content",
           }}
         >
-          <Typography variant="h2" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Frosh Trailer 2025</Typography>
+          <Typography variant="h2" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Frosh Trailer 2026</Typography>
           <iframe
             title="Frosh Trailer 2026"
             width="100%"
             height="400"
-            src="https://www.youtube.com/embed/aJa9L87LvJw"
+            src="https://www.youtube.com/embed/TJBWDItzlxg"
             style={{ border: 0, display: 'block' }}
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             referrerPolicy="strict-origin-when-cross-origin"
