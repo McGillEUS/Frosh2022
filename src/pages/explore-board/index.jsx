@@ -24,8 +24,30 @@ import BluesModal from "../../components/froshopolyBoard/BluesModal";
 
 const BoardImage = "/froshopoly.svg";
 
+const randomModalRegions = [
+  "EUS Committees",
+  "EUS Clubs",
+  "Engineering Chants",
+  "G-Store",
+  "Student Maker Spaces",
+  "Services",
+  "PNU",
+  "First Year Councils",
+  "Junior Council",
+  "Departmental Societies",
+  "Design Team 1",
+  "Design Team 2",
+  "Events",
+  "Comms",
+  "E-Week",
+  "EUS Events",
+  "OAP",
+  "Blues Pub",
+];
+
 const boardRegions = [
   { label: "EUS Committees", x: 190, y: 1250, width: 240, height: 200 },
+  { label: "Chance1", x: 430, y: 1250, width: 118, height: 200 },
   { label: "EUS Clubs", x: 545, y: 1250, width: 120, height: 200 },
   { label: "PNU", x: 780, y: 1250, width: 120, height: 200 },
   { label: "Engineering Chants", x: 900, y: 1250, width: 345, height: 200 },
@@ -35,11 +57,14 @@ const boardRegions = [
   { label: "First Year Councils", x: 0, y: 540, width: 190, height: 120 },
   { label: "Junior Council", x: 0, y: 305, width: 190, height: 120 },
   { label: "Departmental Societies", x: 0, y: 190, width: 190, height: 115 },
-  { label: "Design Teams", x: 190, y: 0, width: 475, height: 190 },
+  { label: "Design Team 1", x: 190, y: 0, width: 118, height: 190 },
+  { label: "Chance2", x: 311, y: 0, width: 118, height: 190 },
+  { label: "Design Team 2", x: 430, y: 0, width: 236, height: 190 },
   { label: "Events", x: 780, y: 0, width: 238, height: 190 },
   { label: "Comms", x: 1018, y: 0, width: 115, height: 190 },
   { label: "E-Week", x: 1133, y: 0, width: 115, height: 190 },
   { label: "EUS Events", x: 1248, y: 190, width: 190, height: 472 },
+  { label: "Chance3", x: 1248, y: 780, width: 190, height: 116 },
   { label: "OAP", x: 1248, y: 898, width: 190, height: 118 },
   { label: "Blues Pub", x: 1248, y: 1134, width: 190, height: 116 },
 ];
@@ -49,9 +74,19 @@ export default function ExploreBoard() {
   const [selectedRegion, setSelectedRegion] = React.useState(null);
 
   const handleRegionClick = (regionLabel) => {
-    setSelectedRegion(regionLabel);
-    setOpen(true);
-  };
+  const isChanceRegion = ["Chance1", "Chance2", "Chance3"].includes(
+    regionLabel
+  );
+
+  const selectedModal = isChanceRegion
+    ? randomModalRegions[
+        Math.floor(Math.random() * randomModalRegions.length)
+      ]
+    : regionLabel;
+
+  setSelectedRegion(selectedModal);
+  setOpen(true);
+};
 
   const renderModalContent = () => {
     if (selectedRegion === "Engineering Chants") {
@@ -86,7 +121,7 @@ export default function ExploreBoard() {
       return <DepartmentsModal />;
     }
     
-    if (selectedRegion === "Design Teams") {
+    if (selectedRegion === "Design Team 1" || selectedRegion === "Design Team 2") {
       return <DesignTeamsModal />;
     }
 
