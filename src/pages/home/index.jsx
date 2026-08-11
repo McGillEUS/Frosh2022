@@ -118,7 +118,17 @@ export default function Home() {
         }}
       >
         <div style={{ padding: "10px 50px 50px 50px" }}>
-          <Typography variant="h2" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>What is Frosh?</Typography>
+          <Typography 
+            variant="h1" 
+            style={{ 
+              fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+              fontWeight: 600,
+              fontSize: "4rem",
+              textAlign: "center",
+              marginBottom: "0.5rem", 
+            }}>
+            What is Frosh?
+          </Typography>
           <Typography variant="p">{WHAT_IS_FROSH}</Typography>
         </div>
         <div
@@ -130,7 +140,17 @@ export default function Home() {
             height: "fit-content",
           }}
         >
-          <Typography variant="h2" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Frosh Trailer 2026</Typography>
+          <Typography 
+            variant="h1" 
+            style={{ 
+              fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+              fontWeight: 600,
+              fontSize: "4rem",
+              textAlign: "center",
+              marginBottom: "0.5rem",  
+            }}>
+            Frosh Trailer 2026
+          </Typography>
           <iframe
             title="Frosh Trailer 2026"
             width="100%"
@@ -143,7 +163,17 @@ export default function Home() {
           />
         </div>
         <div style={{ marginTop: "50px" }}>
-          <Typography variant="h2" style={{ fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif", fontWeight: 800 }}>Sponsors</Typography>
+          <Typography 
+            variant="h1" 
+            style={{ 
+              fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+              fontWeight: 600,
+              fontSize: "4rem",
+              textAlign: "center",
+              marginBottom: "0.5rem", 
+            }}>
+            Sponsors
+          </Typography>
           {showAllSponsors ? (
             <div
               style={{
