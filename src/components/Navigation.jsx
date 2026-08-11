@@ -109,21 +109,21 @@ const ResponsiveAppBar = () => {
               />
             </Box>
             <Typography
-              variant="h5"
+              variant="h1"
               noWrap
               component="a"
               sx={{
                 mr: 2,
                 display: { xs: "flex", md: "none" },
                 flexGrow: 1,
-                fontFamily: "'Kabel', 'Kabel ExtraBold', Arial, sans-serif",
-                fontWeight: 700,
-                letterSpacing: ".3rem",
+                fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+                fontWeight: 600,
+                fontSize: "2rem",
                 color: theme.palette.text.primary,
-                textDecoration: "none",
+                textDecoration: "none", 
               }}
             >
-              Frosh 2026
+              FROSHOPOLY
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page, i) => (
