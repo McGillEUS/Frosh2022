@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography } from "@mui/material";
+import scheduleImage from "../../images/schedule.png";
 
 export default function Schedule() {
   return (
@@ -15,20 +16,18 @@ export default function Schedule() {
         }}> 
         2026 SCHEDULE
         </Typography>
-
-      {<Typography 
-        variant="body1"
+      <img
+        src={scheduleImage}
+        alt="2026 Frosh Schedule"
         style={{
-          fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
-          textAlign: "center",
-          maxWidth: "900px",
+          display: "block",
+          maxWidth: "100%",
+          width: "600px",
+          height: "auto",
           margin: "0 auto",
-          fontSize: "1.25rem",
-          lineHeight: 1.6,
-        }}>
-        The 2026 Frosh Schedule is currently being finalized and will be released in the coming weeks. Please check back here for updates!
-      </Typography>
-      }
+          marginTop: "1rem",
+        }}
+      />
     </div>
   );
 }

@@ -3,15 +3,15 @@ import { createContext } from "react";
 const dark = {
   background: "#043b66",
   textColor: "#eee",
-  primary: "rgb(238,112,2)", //button color
+  primary: "#1fb35b", //button color
   secondary: "#0072bc", //top bar color and links color
   card: "#111",
 };
 const light = {
   background: "#d0f0ff",
   textColor: "#000",
-  primary: "rgb(238,112,2)", 
-  secondary: "#d83b96",
+  primary: "#f8941f", 
+  secondary: "#d3e8cf",
   card: "#fff",
 };
 

@@ -113,7 +113,7 @@ export default function Home() {
           marginTop: HEADER_HEIGHT,
         }}
       >
-        <div style={{ padding: "10px 50px 50px 50px" }}>
+        <div style={{ padding: "10px 50px 50px 50px", textAlign: "center" }}>
           <Typography 
             variant="h1" 
             style={{ 
@@ -125,7 +125,21 @@ export default function Home() {
             }}>
             What is Frosh?
           </Typography>
-          <Typography variant="p">{WHAT_IS_FROSH}</Typography>
+          <Typography 
+            variant="body1"
+            component="p"
+            style={{
+              fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
+              textAlign: "center",
+              display: "block",
+              maxWidth: "1000px",
+              margin: "0 auto",
+              fontSize: "1.25rem",
+              lineHeight: 1.6,
+            }}
+          >
+          {WHAT_IS_FROSH}
+          </Typography>
         </div>
         <div
           style={{
