@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.c7192cef.css",
-    "main.js": "/static/js/main.cadb7357.js",
+    "main.js": "/static/js/main.8683d4b5.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
     "static/media/pnu.png": "/static/media/pnu.2faa344d45e053538a1d.png",
+    "static/media/schedule.png": "/static/media/schedule.f7442d34a99f8a52e6d9.png",
     "static/media/header.png": "/static/media/header.3786d9dde01dd41c3e41.png",
     "static/media/cafecampus.png": "/static/media/cafecampus.ac2049029fbc27338041.png",
     "static/media/altos.png": "/static/media/altos.0c156f4187392c4e0f4c.png",
@@ -37,10 +38,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c7192cef.css.map": "/static/css/main.c7192cef.css.map",
-    "main.cadb7357.js.map": "/static/js/main.cadb7357.js.map"
+    "main.8683d4b5.js.map": "/static/js/main.8683d4b5.js.map"
   },
   "entrypoints": [
     "static/css/main.c7192cef.css",
-    "static/js/main.cadb7357.js"
+    "static/js/main.8683d4b5.js"
   ]
 }
