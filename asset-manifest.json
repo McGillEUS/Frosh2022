@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.c633666d.css",
-    "main.js": "/static/js/main.7a761cb5.js",
+    "main.css": "/static/css/main.c7192cef.css",
+    "main.js": "/static/js/main.cadb7357.js",
     "static/media/handbook_2024.pdf": "/static/media/handbook_2024.ac81bb074c0d2137ca85.pdf",
-    "static/media/header.png": "/static/media/header.c8fa33fa96188eff3759.png",
-    "static/media/schedule_2025.png": "/static/media/schedule_2025.8c4593fb241682282dc1.png",
-    "static/media/BarflyLogo.png": "/static/media/BarflyLogo.2ab3d1cb040f876c5dc6.png",
-    "static/media/frosh_2025_logo_light.png": "/static/media/frosh_2025_logo_light.e1f1918b527591717c65.png",
-    "static/media/Malak.png": "/static/media/Malak.dc7cfa677e8ae038414b.png",
+    "static/media/pnu.png": "/static/media/pnu.2faa344d45e053538a1d.png",
+    "static/media/header.png": "/static/media/header.3786d9dde01dd41c3e41.png",
     "static/media/cafecampus.png": "/static/media/cafecampus.ac2049029fbc27338041.png",
     "static/media/altos.png": "/static/media/altos.0c156f4187392c4e0f4c.png",
+    "static/media/Nortera.jpg": "/static/media/Nortera.c1d50b4844317b85331a.jpg",
     "static/media/Chef.png": "/static/media/Chef.d73fa9396af6d6b3a21f.png",
     "static/media/drivesafe.png": "/static/media/drivesafe.541c138cc77a184cc0bb.png",
     "static/media/Gerts.PNG": "/static/media/Gerts.52a2d405edabbe5f6e8b.PNG",
+    "static/media/frosh_2026_logo_dark.png": "/static/media/frosh_2026_logo_dark.a1fc0afe070cb50527c0.png",
+    "static/media/frosh_2026_logo_light.png": "/static/media/frosh_2026_logo_light.0ff0da1e34d51a348595.png",
+    "static/media/GreenBrothers.png": "/static/media/GreenBrothers.9acd53031e37c89887a2.png",
     "static/media/saa.jpg": "/static/media/saa.f7847136f93063da3fba.jpg",
+    "static/media/SpinEnergie.png": "/static/media/SpinEnergie.e1620c78bac9cb7bb22f.png",
     "static/media/legal.png": "/static/media/legal.58e8d6cccab049e548cc.png",
-    "static/media/frosh_2025_logo_dark.png": "/static/media/frosh_2025_logo_dark.6b2a0c1f8f3cd14d814f.png",
     "static/media/RBC.png": "/static/media/RBC.56edda7d87493391531a.png",
     "static/media/osverse.png": "/static/media/osverse.26da7bb012bc24cf033d.png",
     "static/media/videographer.png": "/static/media/videographer.9a01bcfedc0d496a01a5.png",
     "static/media/la_cite.jpg": "/static/media/la_cite.e9f2bdff9bbbf1d323c4.jpg",
     "static/media/MSERT.png": "/static/media/MSERT.f43876eab9eb0f408d6f.png",
-    "static/media/UberEatsLogo.png": "/static/media/UberEatsLogo.685ffe5615e439e25633.png",
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
     "static/media/walksafe.png": "/static/media/walksafe.7a229a93f28a2c56dee8.png",
     "static/media/sede.png": "/static/media/sede.65ce13ce85ad3b185b3d.png",
     "static/media/FrostbiteLogo.jpeg": "/static/media/FrostbiteLogo.04e40fc0f2a4abf8b4e0.jpeg",
-    "static/media/McgillPizzaLogo.jpeg": "/static/media/McgillPizzaLogo.529b275cc81d747f8c86.jpeg",
     "static/media/eus-mhc.png": "/static/media/eus-mhc.8c4379e1158979cb731f.png",
     "static/media/peer-support.png": "/static/media/peer-support.ec61cfa4997033f90dfb.png",
     "static/media/student-wellness-hub.png": "/static/media/student-wellness-hub.ab788ce893404d2b623b.png",
@@ -37,11 +36,11 @@
     "static/media/campus-life-and-engagement.png": "/static/media/campus-life-and-engagement.f6ad8b0367cdc6a826af.png",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.c633666d.css.map": "/static/css/main.c633666d.css.map",
-    "main.7a761cb5.js.map": "/static/js/main.7a761cb5.js.map"
+    "main.c7192cef.css.map": "/static/css/main.c7192cef.css.map",
+    "main.cadb7357.js.map": "/static/js/main.cadb7357.js.map"
   },
   "entrypoints": [
-    "static/css/main.c633666d.css",
-    "static/js/main.7a761cb5.js"
+    "static/css/main.c7192cef.css",
+    "static/js/main.cadb7357.js"
   ]
 }
