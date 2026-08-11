@@ -10,14 +10,12 @@ import Gerts from "../../images/sponsor/Gerts.PNG";
 import LegalClinic from "../../images/sponsor/legal.png";
 import Videographer from "../../images/sponsor/videographer.png";
 import Cafe from "../../images/sponsor/cafecampus.png";
-import UberEats from "../../images/sponsor/UberEatsLogo.png";
 import Barfly from "../../images/sponsor/BarflyLogo.png";
 import McGillPizza from "../../images/sponsor/McgillPizzaLogo.jpeg";
 import Frostbite from "../../images/sponsor/FrostbiteLogo.jpeg";
 import Piranha from "../../images/sponsor/PiranhaLogo.jpeg";
 import RBC from "../../images/sponsor/RBC.png";
 import LaCite from "../../images/sponsor/la_cite.jpg";
-import Malak from "../../images/sponsor/Malak.png";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 
@@ -55,17 +53,15 @@ export default function Home() {
     { src: Altos, link: "https://altorestaurant.ca/en/" },
     { src: Chef, link: "https://www.chefoncalldelivery.com/" },
     { src: Gerts, link: "https://ssmu.ca/student-life/gerts-bar/" },
-    {src: LegalClinic},
-    {src: Cafe, link: "https://www.cafecampus.com/"},
-    {src: RBC, link: "https://www.rbcroyalbank.com/dms/students/oncampus/index.html"},
-    {src: LaCite, link: "https://www.bgoliving.com/residential/lacite"},
-    {src: Malak, link: "https://www.instagram.com/malakaltawouk.ca?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="},
-    {src: Videographer, link: "https://jfilmzproductions.com/"},
-    {src: UberEats},
-    {src: Barfly},
-    {src: McGillPizza},
-    {src: Frostbite},
-    {src: Piranha},
+    { src: LegalClinic},
+    { src: Cafe, link: "https://www.cafecampus.com/"},
+    { src: RBC, link: "https://www.rbcroyalbank.com/dms/students/oncampus/index.html"},
+    { src: LaCite, link: "https://www.bgoliving.com/residential/lacite"},
+    { src: Videographer, link: "https://jfilmzproductions.com/" },
+    { src: Barfly },
+    { src: McGillPizza },
+    { src: Frostbite},
+    { src: Piranha},
   ];
 
   const imageStyle = {
