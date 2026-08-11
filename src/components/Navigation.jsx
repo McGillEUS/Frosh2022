@@ -118,7 +118,7 @@ const ResponsiveAppBar = () => {
                 flexGrow: 1,
                 fontFamily: "'Futura PT', 'Futura', 'Trebuchet MS', Arial, sans-serif",
                 fontWeight: 600,
-                fontSize: "1.25rem",
+                fontSize: "1.5rem",
                 color: theme.palette.text.primary,
                 textDecoration: "none", 
               }}
