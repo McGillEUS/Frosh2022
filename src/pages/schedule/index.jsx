@@ -16,6 +16,18 @@ export default function Schedule() {
         }}> 
         2026 SCHEDULE
         </Typography>
+        <Typography
+          variant="body1"
+          style={{
+            marginTop: "10px",
+            marginBottom: "20px",
+            textAlign: "center",
+            fontSize: "1.25rem",
+            lineHeight: 1.6,
+          }}
+        >
+        Please see the handbook for more details on each day's events and activities!
+        </Typography>
       <img
         src={scheduleImage}
         alt="2026 Frosh Schedule"

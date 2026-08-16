@@ -15,6 +15,18 @@ export default function Map() {
         }}>
         MAP
       </Typography>
+      <Typography
+        variant="body1"
+        style={{
+          marginTop: "10px",
+          marginBottom: "20px",
+          textAlign: "center",
+          fontSize: "1.25rem",
+          lineHeight: 1.6,
+        }}
+      >
+        Please see the locations of some of our 2026 Frosh sponsors in the map below!
+      </Typography>
       <div
         style={{
           marginLeft: "auto",

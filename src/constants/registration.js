@@ -26,10 +26,9 @@ export const STEPS_TO_TAKE = [
       You will receive a confirmation email once the online registration and payment are complete!
       </Typography>
     </div> 
-    <strong>Step 4:</strong> Complete the MANDATORY trainings. There are <strong>3</strong> in total: the Sexual Violence
-    training called <q>It Takes All of Us</q>, the <q>Anti - Oppression</q>{" "}
-    training and the <q>Frosh 101</q> training all on MyCourses. More information on trainings will appear on our Instagram and Facebook in the first couple weeks of August. <br></br><br></br>
-    <strong>Step 5:</strong> Complete your registration and pick up your Frosh merch at Registration tent (DO NOT FORGET YOUR MCGILL ID!). Registration tent is open from August 22nd - August 26th between 10am - 4pm EST. <br></br>  
+    <strong>Step 4:</strong> Complete the MANDATORY trainings. There are <strong>2</strong> in total: the Sexual Violence
+    training called <q>It Takes All of Us</q> and the <q>Frosh 101</q> training all on MyCourses. More information on trainings will appear on our Instagram and Facebook in the first couple weeks of August. <br></br><br></br>
+    <strong>Step 5:</strong> Complete your registration and pick up your Frosh merch at Registration tent (DO NOT FORGET YOUR MCGILL ID!). Registration tent is open from August 22nd - August 26th between 11am - 4pm EST. <br></br>  
   </Typography>,
   
 ];
