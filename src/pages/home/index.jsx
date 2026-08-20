@@ -16,6 +16,7 @@ import LaCite from "../../images/sponsor/la_cite.jpg";
 import Nortera from "../../images/sponsor/Nortera.jpg";
 import GreenBrothers from "../../images/sponsor/GreenBrothers.png";
 import SpinEnergie from "../../images/sponsor/SpinEnergie.png";
+import Boustan from "../../images/sponsor/boustan.jpeg";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 
@@ -58,6 +59,7 @@ export default function Home() {
     { src: Nortera, link: "https://www.norterafoods.com/en/" },
     { src: GreenBrothers, link: "https://www.greenbrothers.ca/en" },
     { src: SpinEnergie, link: "https://www.spinenergie.com/" },
+    { src: Boustan, link: "https://www.boustan.ca/" },
     { src: Altos, link: "https://altorestaurant.ca/en/" },
     { src: Chef, link: "https://www.chefoncalldelivery.com/" },
     { src: Frostbite, link: "https://www.instagram.com/frostbite_icecream/" },
