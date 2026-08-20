@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c7192cef.css",
-    "main.js": "/static/js/main.560e4e8f.js",
+    "main.js": "/static/js/main.4f561a77.js",
     "static/media/handbook2026v1.pdf": "/static/media/handbook2026v1.da5967eabf8cf65adaad.pdf",
     "static/media/pnu.png": "/static/media/pnu.2faa344d45e053538a1d.png",
     "static/media/schedule.png": "/static/media/schedule.f7442d34a99f8a52e6d9.png",
@@ -26,6 +26,7 @@
     "static/media/mcgill-security.jpg": "/static/media/mcgill-security.bc3c1a63a2a626908676.jpg",
     "static/media/walksafe.png": "/static/media/walksafe.7a229a93f28a2c56dee8.png",
     "static/media/sede.png": "/static/media/sede.65ce13ce85ad3b185b3d.png",
+    "static/media/boustan.jpeg": "/static/media/boustan.eb217f9294163699b736.jpeg",
     "static/media/FrostbiteLogo.jpeg": "/static/media/FrostbiteLogo.04e40fc0f2a4abf8b4e0.jpeg",
     "static/media/eus-mhc.png": "/static/media/eus-mhc.8c4379e1158979cb731f.png",
     "static/media/peer-support.png": "/static/media/peer-support.ec61cfa4997033f90dfb.png",
@@ -38,10 +39,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.c7192cef.css.map": "/static/css/main.c7192cef.css.map",
-    "main.560e4e8f.js.map": "/static/js/main.560e4e8f.js.map"
+    "main.4f561a77.js.map": "/static/js/main.4f561a77.js.map"
   },
   "entrypoints": [
     "static/css/main.c7192cef.css",
-    "static/js/main.560e4e8f.js"
+    "static/js/main.4f561a77.js"
   ]
 }
